@@ -1,0 +1,9 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Satisfy&family=Ubuntu&family=Work+Sans&display=swap" rel="stylesheet">
+
+
+For stylist        : font-family: 'Satisfy', cursive;
+Links              : font-family: 'Ubuntu', sans-serif;
+Headings           : font-family: 'Roboto Slab', serif;
+Body text          : font-family: 'Work Sans', sans-serif;

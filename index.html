@@ -2,34 +2,97 @@
 <html lang="en">
 
 <head>
-    <title>GreenHKMarket - Organic and Sustainable Products in the UK</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GreenHKMarket - Organic and Sustainable Products in the UK">
-    <meta name="keywords" content="greenHKMarket, organic products, sustainable products, UK, eco-friendly, green lifestyle">
-    <link rel="icon" href="assets/images/theme-logo/favicon/favicon-32x32.png" type="image/x-icon">
-    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
+  
+  <title>GreenHKMarket - Organic and Sustainable Products in the UK</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GreenHKMarket - Organic and Sustainable Products in the UK">
+  <meta name="keywords" content="greenHKMarket, organic products, sustainable products, UK, eco-friendly, green lifestyle">
+  <link rel="icon" href="assets/images/theme-logo/favicon/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Satisfy&family=Ubuntu&family=Work+Sans&display=swap" rel="stylesheet">
+  <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
 </head>
-
 <body>
-    <main>
-        <div class="page-wrapper">
-            <header>
-                <nav>
-                    
-                </nav>
-            </header>
-            <footer>
+  <main>
+    <div class="page-wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+              <img src="assets/images/theme-logo/logo.png" class="img-fluid" alt="GreenHKMarket Logo">
+            </a>
+            <div class="navbar-toggler" onclick="navbarToggle(this)" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="javascript:void(0)">Organic Food and Groceries</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Eco-Friendly Home and Kitchen</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Natural Beauty and Personal Care</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Sustainable Fashion</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Health and Wellness</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">Contact us</a>
+                </li>
+              </ul>
+              <form class="d-flex me-auto mb-2 mb-lg-0" role="search">
+                <div class="input-group">
+                  <select class="form-select" aria-label="Category" id="category-select" name="category-select">
+                    <option value="all" class="select-item">All</option>
+                    <option value="Food and Groceries">Food and Groceries</option>
+                    <option value="Home and Kitchen">Home and Kitchen</option>
+                    <option value="Beauty Care">Beauty Care</option>
+                    <option value="Sustainable Fashion">Sustainable Fashion</option>
+                    <option value="Health and Wellness">Health and Wellness</option>
+                  </select>
+                  <input type="text" class="form-control search-input" aria-label="Text input with category select" placeholder="Search products">
+                  <a href="javascript:void(0)" class="btn btn-outline-secondary" type="button" id="search-button"><i class="fa fa-search"></i></a>
+                </div>                
+              </form>
+              <div class="d-flex icon-container mb-2 mb-lg-0 justify-content-end align-items-center">
+                <a href="javascript:void(0)"><i class="fa fa-user"></i> Account</a>
+                <a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <footer>
 
-            </footer>
-        </div>
-    </main>
-    <script src="assets/javascript/jquery-3.7.0.min.js"></script>
-    <script src="assets/javascript/bootstrap/bootstrap.bundle.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
-    <script src="assets/javascript/main.js"></script>
+      </footer>
+    </div>
+  </main>
+  <script src="assets/javascript/jquery-3.7.0.min.js"></script>
+  <script src="assets/javascript/bootstrap/bootstrap.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+  <script src="assets/javascript/main.js"></script>
 </body>
+
 </html>
