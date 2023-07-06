@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     var current_year = new Date().getFullYear()
     document.getElementById('copyright_year').innerHTML = current_year
 })
@@ -18,3 +18,7 @@ function scrollToTop() {
         window.scrollTo(0, scrollTop - scrollTop / 8);
     }
 }
+window.addEventListener("load", function () {
+    var loader = document.getElementById("loader-wrapper");
+    loader.style.display = "none";
+});
