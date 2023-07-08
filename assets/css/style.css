@@ -365,6 +365,144 @@ a {
     transform: scale(1.1);
   }
 
+  
+  .common-product-container{
+    padding: 20px;
+  }
+  .common-product-container .heading{
+    color: var(--complementary-color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Belanosima', sans-serif;
+  }
+  .common-product-container .col-md-3{
+    padding: 0px;
+  }
+  .common-product-container .product-item{
+    padding: 0px;
+    position: relative;
+    border: 2px solid #EEEEEE;
+    width: 95%;
+    margin: 10px;
+  }
+  .common-product-container .product-item:hover{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  }
+  .common-product-container .product-item .product-img{
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .common-product-container .product-img img{
+    width: 100%;
+    object-fit: fill;
+    position: relative;
+  }
+  .common-product-container .product-item .product-badge{
+    position: absolute;
+    text-align: right;
+    top: 2%;
+    right: 2%;
+    font-size: 1em;
+  }
+  .common-product-container .product-item .product-badge .badge{
+    background-color: var(--primary-color);
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1px;
+    border-radius: 10px 0px 10px 0px;
+  }
+  .common-product-container .product-action{
+    position: absolute;
+    bottom: 0;
+    top: 30%;
+    right: 8%;
+    display: none;
+    height: 0;
+    transition: height 0.9s ease;
+    transform: translateY(100%);
+  }
+  .common-product-container .product-item:hover .product-action{
+    display: block;
+    animation: slide-up 0.3s ease forwards;
+    width: 100%;
+  }
+  .common-product-container .product-action ul{
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+  }
+  .common-product-container .product-action ul li{
+    display: inline;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    cursor: pointer;
+  }
+  .common-product-container .product-action ul li:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: 0.4s ease;
+  }
+  .common-product-container .product-action ul a{
+    transition: 0.4s ease;
+    margin: auto;
+    text-decoration: none;
+    color:  var(--complementary-color);
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .common-product-container .product-action ul li:hover a{
+    transition: 0.4s ease;
+    color: var(--secondary-color);
+  }
+  .common-product-container .product-content{
+    padding: 20px 10px 20px 15px;
+    min-height: 165px;
+  }
+  .common-product-container .product-rating ul{
+    list-style-type: none;
+    padding: 0px;    
+    margin: 0px;
+  }
+  .common-product-container .product-rating ul li{  
+    display: inline;
+    color: orange;
+    font-size: 0.8em;
+  }
+  .common-product-container .product-content .product-title{
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+    transition: 0.5s ease;
+  }
+  .common-product-container .product-content .product-title a{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Belanosima', sans-serif;
+    color: var(--complementary-color);
+  }
+  .common-product-container .product-content .product-title a:hover{
+    transition: 0.5s ease;
+    color:  var(--primary-color);
+  }
+  .common-product-container .product-content .product-price{
+    display: flex;
+    grid-column: auto;
+    column-gap: 10px;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 500;
+    color:  var(--primary-color);
+    vertical-align: middle;
+    font-size: 1.1em;
+    margin-top: 5px;
+  }
+  .common-product-container .product-content .product-deal-price{
+    opacity: 0.8;
+    text-decoration:line-through;
+  }
 
 
 
@@ -896,6 +1034,156 @@ a {
     transition: 0.5s ease;
     transform: scale(1.1);
   }
+  .common-product-container{
+    padding: 50px 150px 50px 150px;
+  }
+  .common-product-container .heading{
+    color: var(--complementary-color);
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-family: 'Belanosima', sans-serif;
+  }
+  .common-product-container .col-md-3{
+    padding: 0px;
+  }
+  .common-product-container .product-item{
+    padding: 0px;
+    position: relative;
+    border: 2px solid #EEEEEE;
+    width: 95%;
+    margin: 10px;
+  }
+  .common-product-container .product-item:hover{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  }
+  .common-product-container .product-item .product-img{
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .common-product-container .product-img img{
+    width: 100%;
+    object-fit: fill;
+    position: relative;
+  }
+  .common-product-container .product-item .product-badge{
+    position: absolute;
+    text-align: right;
+    top: 2%;
+    right: 2%;
+    font-size: 1.2em;
+  }
+  .common-product-container .product-item .product-badge .badge{
+    background-color: var(--primary-color);
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 1px;
+    border-radius: 10px 0px 10px 0px;
+  }
+  .common-product-container .product-action{
+    position: absolute;
+    bottom: 0;
+    top: 30%;
+    left: 15%;
+    display: none;
+    height: 0;
+    transition: height 0.9s ease;
+    transform: translateY(100%);
+  }
+  .common-product-container .product-item:hover .product-action{
+    display: block;
+    animation: slide-up 0.3s ease forwards;
+  }
+  .common-product-container .product-action ul{
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .common-product-container .product-action ul li{
+    display: inline;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    cursor: pointer;
+  }
+  .common-product-container .product-action ul li:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: 0.4s ease;
+  }
+  .common-product-container .product-action ul a{
+    transition: 0.4s ease;
+    margin: auto;
+    text-decoration: none;
+    color:  var(--complementary-color);
+    font-size: 1.1rem;
+    width: 100%;
+  }
+  .common-product-container .product-action ul li:hover a{
+    transition: 0.4s ease;
+    color: var(--secondary-color);
+  }
+  .common-product-container .product-content{
+    padding: 20px 10px 20px 15px;
+    min-height: 165px;
+  }
+  .common-product-container .product-rating ul{
+    list-style-type: none;
+    padding: 0px;    
+    margin: 0px;
+  }
+  .common-product-container .product-rating ul li{  
+    display: inline;
+    color: orange;
+    font-size: 0.9em;
+  }
+  .common-product-container .product-content .product-title{
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+    transition: 0.5s ease;
+  }
+  .common-product-container .product-content .product-title a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Belanosima', sans-serif;
+    color: var(--complementary-color);
+  }
+  .common-product-container .product-content .product-title a:hover{
+    transition: 0.5s ease;
+    color:  var(--primary-color);
+  }
+  .common-product-container .product-content .product-price{
+    display: flex;
+    grid-column: auto;
+    column-gap: 10px;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 500;
+    color:  var(--primary-color);
+    vertical-align: middle;
+    font-size: 1.3em;
+    margin-top: 5px;
+  }
+  .common-product-container .product-content .product-deal-price{
+    opacity: 0.8;
+    text-decoration:line-through;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
