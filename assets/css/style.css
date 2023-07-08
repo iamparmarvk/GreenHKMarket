@@ -238,7 +238,132 @@ a {
     color: var(--complementary-color);
     background-color: #212121;
   }
-
+  .advertisement-container{
+    background: linear-gradient(305deg, rgba(255,193,7,1) 35%, rgba(76,175,80,1) 72%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .advertisement-container .col-lg-6{
+    color: black;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .advertisement-container .large-ad{
+    width: 92%;
+    margin: auto;
+  }
+  .advertisement-container .large-ad img{
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+    transform: scale(1.2);
+    transition: 0.5s ease;
+  }
+  .advertisement-container .large-ad .content{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    padding: 10px;
+  }
+  .advertisement-container .large-ad .content h4{
+    color:  var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 25px;
+  }
+  .advertisement-container .large-ad .content .btn{
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--complementary-color);
+    border-radius: 0px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1rem;
+  }
+  .advertisement-container .large-ad .content .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .advertisement-container .small-ad-row{ 
+    height: 240px;
+    position: relative;
+    background-color: var(--secondary-color);
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+  } 
+  .advertisement-container .small-ad-row img{ 
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+    transition: 0.5s ease;
+  }
+  .advertisement-container .small-ad-row .ad-right-side .content{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    width: 80%;
+  }
+  .advertisement-container .ad-right-side .content h4{
+    color:  var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 22px;
+    padding: 10px;
+  }
+  .advertisement-container .stylish-font{
+    font-family: 'Satisfy', cursive;
+    color: var(--accent-color);
+  }
+  .advertisement-container .ad-right-side .content .btn{
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--complementary-color);
+    border-radius: 0px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 0.9rem;
+  }
+  .advertisement-container .ad-right-side .content .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .advertisement-container .small-ad-row .ad-left-side .content{
+    position: absolute;
+    text-align: right;
+    top: 15%;
+    right: 3%;
+    width: 80%;
+  }
+  .advertisement-container .ad-left-side .content h4{
+    color:  var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 22px;
+    padding: 10px;
+  }
+  .advertisement-container .ad-left-side .content .btn{
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--complementary-color);
+    border-radius: 0px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 0.9rem;
+  }
+  .advertisement-container .ad-left-side .content .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .advertisement-container .large-ad:hover img{
+    transition: 0.5s ease;
+    transform: scale(1.3);
+  }
+  .advertisement-container .small-ad-col:hover img{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+  }
 
 
 
@@ -649,13 +774,128 @@ a {
     color: var(--complementary-color);
     background-color: #212121;
   }
-
-
-
-
-
-
-
+  .advertisement-container{
+    background: linear-gradient(305deg, rgba(255,193,7,1) 35%, rgba(76,175,80,1) 72%);
+    padding: 50px 180px 50px 180px;
+  }
+  .advertisement-container .col-lg-6{
+    color: black;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .advertisement-container .large-ad img{
+    width: 100%;
+    position: relative;
+    object-fit: contain;
+    height: 500px;
+    transform: scale(1.2);
+    transition: 0.5s ease;
+  }
+  .advertisement-container .large-ad .content{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    padding: 10px;
+  }
+  .advertisement-container .large-ad .content h4{
+    color:  var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 45px;
+  }
+  .advertisement-container .large-ad .content .btn{
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--complementary-color);
+    border-radius: 0px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.1rem;
+  }
+  .advertisement-container .large-ad .content .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .advertisement-container .small-ad-row{ 
+    height: 240px;
+    width: 100%;
+    position: relative;
+    background-color: var(--secondary-color);
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+  } 
+  .advertisement-container .small-ad-row img{ 
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+    transition: 0.5s ease;
+  }
+  .advertisement-container .small-ad-row .ad-right-side .content{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    width: 100%;  
+  }
+  .advertisement-container .ad-right-side .content h4{
+    color:  var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 30px;
+  }
+  .advertisement-container .stylish-font{
+    font-family: 'Satisfy', cursive;
+    color: var(--accent-color);
+  }
+  .advertisement-container .ad-right-side .content .btn{
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--complementary-color);
+    border-radius: 0px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1rem;
+  }
+  .advertisement-container .ad-right-side .content .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .advertisement-container .small-ad-row .ad-left-side .content{
+    position: absolute;
+    text-align: right;
+    top: 15%;
+    right: 3%;
+    width: 100%;
+  }
+  .advertisement-container .ad-left-side .content h4{
+    color:  var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 30px;
+  }
+  .advertisement-container .ad-left-side .content .btn{
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--complementary-color);
+    border-radius: 0px;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1rem;
+  }
+  .advertisement-container .ad-left-side .content .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .advertisement-container .large-ad:hover img{
+    transition: 0.5s ease;
+    transform: scale(1.3);
+  }
+  .advertisement-container .small-ad-col:hover img{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+  }
 
 
 
