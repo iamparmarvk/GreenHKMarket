@@ -12,11 +12,7 @@ document.getElementById("goToTop").addEventListener("click", function (event) {
 });
 
 function scrollToTop() {
-    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    if (scrollTop > 0) {
-        window.requestAnimationFrame(scrollToTop);
-        window.scrollTo(0, scrollTop - scrollTop / 8);
-    }
+    window.scrollTo(0, 0);
 }
 window.addEventListener("load", function () {
     var loader = document.getElementById("loader-wrapper");

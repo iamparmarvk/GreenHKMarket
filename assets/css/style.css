@@ -315,6 +315,10 @@ a {
     font-family: 'Satisfy', cursive;
     color: var(--accent-color);
   }
+  .stylish-font{
+    font-family: 'Satisfy', cursive;
+    color: var(--accent-color);
+  }
   .advertisement-container .ad-right-side .content .btn{
     margin-top: 10px;
     outline: none;
@@ -502,6 +506,67 @@ a {
   .common-product-container .product-content .product-deal-price{
     opacity: 0.8;
     text-decoration:line-through;
+  }
+
+
+
+  .clients-testimonials-container{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #f3f4f6;
+  }
+  .clients-testimonials-container .testimonial-item{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    width: 95%;
+    margin: 10px;
+    height: 95%;
+    padding: 10px;
+    background-color: white;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-img{
+    overflow: hidden;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-img img{
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-details{
+    padding: 10px 10px 0px 10px;
+    position: relative;
+    font-size: 0.9em;
+    text-align: justify;
+  }
+  .clients-testimonials-container #testimonialsCarousel .review-content{
+    font-family: 'Belanosima', sans-serif;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-name{
+    color: var(--primary-color);
+    font-family: 'Satisfy', cursive;
+    position: absolute;
+    bottom: -5%;
+    font-size: 1.2em;
+  }
+  #testimonialsCarousel .carousel-control-prev, #testimonialsCarousel .carousel-control-next{
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    display: none;
+    transition: 0.4s ease;
+  }
+  .clients-testimonials-container .heading{
+    color: var(--complementary-color);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: 'Belanosima', sans-serif;
+  }
+  .clients-testimonials-container #testimonialsCarousel:hover .carousel-control-prev,.clients-testimonials-container #testimonialsCarousel:hover .carousel-control-next{
+    transition: 0.4s ease;
+    display: block;
   }
 
 
@@ -986,6 +1051,10 @@ a {
     font-family: 'Satisfy', cursive;
     color: var(--accent-color);
   }
+  .stylish-font{
+    font-family: 'Satisfy', cursive;
+    color: var(--accent-color);
+  }
   .advertisement-container .ad-right-side .content .btn{
     margin-top: 10px;
     outline: none;
@@ -1170,9 +1239,58 @@ a {
     opacity: 0.8;
     text-decoration:line-through;
   }
-
-
-
+  .clients-testimonials-container{
+    padding: 50px;
+    background-color: #f3f4f6;
+  }
+  .clients-testimonials-container .testimonial-item{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    width: 95%;
+    margin: 10px;
+    height: 95%;
+    padding: 15px;
+    background-color: white;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-img{
+    overflow: hidden;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-img img{
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-details{
+    padding: 10px 10px 0px 10px;
+    position: relative;
+  }
+  .clients-testimonials-container #testimonialsCarousel .review-content{
+    font-family: 'Belanosima', sans-serif;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-name{
+    color: var(--primary-color);
+    font-family: 'Satisfy', cursive;
+    position: absolute;
+    bottom: -5%;
+  }
+  #testimonialsCarousel .carousel-control-prev, #testimonialsCarousel .carousel-control-next{
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    display: none;
+    transition: 0.4s ease;
+  }
+  .clients-testimonials-container .heading{
+    color: var(--complementary-color);
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-family: 'Belanosima', sans-serif;
+  }
+  .clients-testimonials-container #testimonialsCarousel:hover .carousel-control-prev,.clients-testimonials-container #testimonialsCarousel:hover .carousel-control-next{
+    transition: 0.4s ease;
+    display: block;
+  }
 
 
 
