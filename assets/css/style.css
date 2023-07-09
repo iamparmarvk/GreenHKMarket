@@ -512,23 +512,22 @@ a {
     opacity: 0.8;
     text-decoration: line-through;
   }
-  .common-product-container .view-all-products{
+  .common-product-container .view-all-products {
     margin-top: 20px;
   }
-  .common-product-container .view-all-products a{
+  .common-product-container .view-all-products a {
     text-decoration: none;
     font-size: 1rem;
     color: var(--secondary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     background-color: var(--primary-color);
     padding: 10px;
   }
-  .common-product-container .view-all-products a:hover{
+  .common-product-container .view-all-products a:hover {
     transition: 0.5s ease;
     background-color: #ff9f29;
     color: var(--secondary-color);
   }
-  
 
   .product-item {
     padding: 0px;
@@ -721,14 +720,14 @@ a {
     display: block;
   }
 
-  .health-wellness-container{
+  .health-wellness-container {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .health-wellness-container .carousel-item{
+  .health-wellness-container .carousel-item {
     padding: 0px 20px 0px 10px;
   }
-  #healthWellnessCarousel .carousel-item .col-6{
+  #healthWellnessCarousel .carousel-item .col-6 {
     padding: 0px;
   }
   #healthWellnessCarousel .carousel-control-prev,
@@ -745,8 +744,8 @@ a {
     margin-bottom: 30px;
     font-family: "Belanosima", sans-serif;
   }
-  
-  .latest-blog-container{
+
+  .latest-blog-container {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #eeeeee;
@@ -757,85 +756,167 @@ a {
     margin-bottom: 20px;
     font-family: "Belanosima", sans-serif;
   }
-  .latest-blog-container .card{
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  .latest-blog-container .card {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: 0.5s ease;
     margin-top: 15px;
   }
-  .latest-blog-container .card .card-header{
+  .latest-blog-container .card .card-header {
     padding: 0px;
     overflow: hidden;
     transition: 0.5s ease;
   }
-  .latest-blog-container .card .img{
+  .latest-blog-container .card .img {
     object-fit: cover;
     transition: 0.5s ease;
   }
-  .latest-blog-container .card:hover img{
+  .latest-blog-container .card:hover img {
     object-fit: cover;
     transform: scale(1.1);
     transition: 0.5s ease;
   }
-  .latest-blog-container .card .card-body{
+  .latest-blog-container .card .card-body {
     width: 100%;
   }
-  .latest-blog-container .card i{
+  .latest-blog-container .card i {
     font-size: 1em;
-    color:  var(--primary-color);
+    color: var(--primary-color);
     margin-right: 5px;
   }
-  .latest-blog-container .card h3{
+  .latest-blog-container .card h3 {
     margin-top: -15px;
   }
-  .latest-blog-container .card .post-author{
-    font-family: 'Belanosima', sans-serif;
+  .latest-blog-container .card .post-author {
+    font-family: "Belanosima", sans-serif;
   }
-  .latest-blog-container .card h3 a{
+  .latest-blog-container .card h3 a {
     text-decoration: none;
-    font-size:large;
+    font-size: large;
     color: var(--complementary-color);
     font-weight: 600;
     transition: 0.4s ease;
   }
-  .latest-blog-container .card h3 a:hover{
+  .latest-blog-container .card h3 a:hover {
     transition: 0.4s ease;
     color: var(--primary-color);
   }
-  .latest-blog-container .card-footer{
+  .latest-blog-container .card-footer {
     background-color: white;
     padding: 15px;
   }
-  .latest-blog-container .card-footer .post-date{
-    font-family: 'Belanosima', sans-serif;
+  .latest-blog-container .card-footer .post-date {
+    font-family: "Belanosima", sans-serif;
   }
-  .latest-blog-container .action-link a{
+  .latest-blog-container .action-link a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--primary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 0.7em;
     font-weight: 600;
     transition: 0.4s ease;
-  } 
-  .latest-blog-container .action-link a:hover{
+  }
+  .latest-blog-container .action-link a:hover {
     transition: 0.4s ease;
     color: var(--complementary-color);
     text-decoration: underline;
   }
-  .latest-blog-container .view-all-blog{
+  .latest-blog-container .view-all-blog {
     margin-top: 20px;
   }
-  .latest-blog-container .view-all-blog a{
+  .latest-blog-container .view-all-blog a {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 10px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     transition: 0.4s ease;
   }
-  .latest-blog-container .view-all-blog a:hover{
-    background-color: var(--accent-color);  
+  .latest-blog-container .view-all-blog a:hover {
+    background-color: var(--accent-color);
   }
+
+  .account-form{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 95%;
+  }
+  .account-form .heading {
+    color: var(--complementary-color);
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+    text-align: center;
+  }
+  .account-form input{
+    border: 1px solid #eeeeee;
+    outline: none;
+    border-radius: 0px;
+  }
+  .account-form .form-floating label{
+    color: grey;
+  }
+  .account-form input:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--primary-color);
+  }
+  .account-form .password-eye-btn{
+    border-radius: 0px;
+    outline: none;
+    background-color: transparent;
+    color: #4caf50;
+    border: 1px solid #eeeeee;
+  }
+  .account-form .password-eye-btn:focus{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .account-form .submit-btn-row{
+    margin-top: 30px;
+  }
+  .account-form .submit-btn-row .btn{
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1em;
+    padding: 5px;
+    min-width: 130px;
+  }
+  .account-form .sign-in-link-row{
+    text-align: center;
+  }
+  .account-form .sign-in-link-row a{
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.8rem;
+  }
+  .account-form .sign-in-link-row a:hover{
+    color: var(--primary-color);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1508,29 +1589,22 @@ a {
     opacity: 0.8;
     text-decoration: line-through;
   }
-  .common-product-container .view-all-products{
+  .common-product-container .view-all-products {
     margin-top: 20px;
   }
-  .common-product-container .view-all-products a{
+  .common-product-container .view-all-products a {
     text-decoration: none;
     font-size: 1.2rem;
     color: var(--secondary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     background-color: var(--primary-color);
     padding: 10px;
   }
-  .common-product-container .view-all-products a:hover{
+  .common-product-container .view-all-products a:hover {
     transition: 0.5s ease;
     background-color: #ff9f29;
     color: var(--secondary-color);
   }
-
-
-
-
-
-
-
 
   .product-item {
     padding: 0px;
@@ -1735,7 +1809,7 @@ a {
     transition: 0.4s ease;
     display: block;
   }
-  .latest-blog-container{
+  .latest-blog-container {
     padding: 50px 120px 50px 120px;
     background-color: #eeeeee;
   }
@@ -1745,86 +1819,145 @@ a {
     margin-bottom: 30px;
     font-family: "Belanosima", sans-serif;
   }
-  .latest-blog-container .card{
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  .latest-blog-container .card {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     width: 95%;
     overflow: hidden;
     transition: 0.5s ease;
   }
-  .latest-blog-container .card .card-header{
+  .latest-blog-container .card .card-header {
     padding: 0px;
     overflow: hidden;
     transition: 0.5s ease;
-
   }
-  .latest-blog-container .card .img{
+  .latest-blog-container .card .img {
     object-fit: cover;
     transition: 0.5s ease;
   }
-  .latest-blog-container .card:hover img{
+  .latest-blog-container .card:hover img {
     object-fit: cover;
     transform: scale(1.1);
     transition: 0.5s ease;
   }
-  .latest-blog-container .card .card-body{
+  .latest-blog-container .card .card-body {
     width: 100%;
   }
-  .latest-blog-container .card i{
+  .latest-blog-container .card i {
     font-size: 1.1em;
-    color:  var(--primary-color);
+    color: var(--primary-color);
     margin-right: 5px;
   }
-  .latest-blog-container .card h3{
+  .latest-blog-container .card h3 {
     margin-top: -15px;
   }
-  .latest-blog-container .card .post-author{
-    font-family: 'Belanosima', sans-serif;
+  .latest-blog-container .card .post-author {
+    font-family: "Belanosima", sans-serif;
   }
-  .latest-blog-container .card h3 a{
+  .latest-blog-container .card h3 a {
     text-decoration: none;
-    font-size:large;
+    font-size: large;
     color: var(--complementary-color);
     font-weight: 600;
     transition: 0.4s ease;
   }
-  .latest-blog-container .card h3 a:hover{
+  .latest-blog-container .card h3 a:hover {
     transition: 0.4s ease;
     color: var(--primary-color);
   }
-  .latest-blog-container .card-footer{
+  .latest-blog-container .card-footer {
     background-color: white;
     padding: 20px;
   }
-  .latest-blog-container .card-footer .post-date{
-    font-family: 'Belanosima', sans-serif;
+  .latest-blog-container .card-footer .post-date {
+    font-family: "Belanosima", sans-serif;
   }
-  .latest-blog-container .action-link a{
+  .latest-blog-container .action-link a {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--primary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 0.9em;
     font-weight: 600;
     transition: 0.4s ease;
-  } 
-  .latest-blog-container .action-link a:hover{
+  }
+  .latest-blog-container .action-link a:hover {
     transition: 0.4s ease;
     color: var(--complementary-color);
     text-decoration: underline;
   }
-  .latest-blog-container .view-all-blog{
+  .latest-blog-container .view-all-blog {
     margin-top: 50px;
   }
-  .latest-blog-container .view-all-blog a{
+  .latest-blog-container .view-all-blog a {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: 10px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     transition: 0.4s ease;
   }
-  .latest-blog-container .view-all-blog a:hover{
-    background-color: var(--accent-color);  
+  .latest-blog-container .view-all-blog a:hover {
+    background-color: var(--accent-color);
   }
+  .account-form{
+    border: 2px solid black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .account-form .heading {
+    color: var(--complementary-color);
+    font-size: 2.1rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+    text-align: center;
+  }
+  .account-form input{
+    border: 1px solid #eeeeee;
+    outline: none;
+    border-radius: 0px;
+  }
+  .account-form .form-floating label{
+    color: grey;
+  }
+  .account-form input:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--primary-color);
+  }
+  .account-form .password-eye-btn{
+    border-radius: 0px;
+    outline: none;
+    background-color: transparent;
+    color: #4caf50;
+    border: 1px solid #eeeeee;
+  }
+  .account-form .password-eye-btn:focus{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .account-form .submit-btn-row{
+    margin-top: 30px;
+  }
+  .account-form .submit-btn-row .btn{
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1.2em;
+    padding: 5px;
+    min-width: 200px;
+  }
+  .account-form .sign-in-link-row{
+    text-align: center;
+  }
+  .account-form .sign-in-link-row a{
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-family: 'Roboto Slab', serif;
+  }
+  .account-form .sign-in-link-row a:hover{
+    color: var(--primary-color);
+  }
+
 
 
 

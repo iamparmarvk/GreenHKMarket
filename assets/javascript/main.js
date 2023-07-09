@@ -18,3 +18,31 @@ window.addEventListener("load", function () {
     var loader = document.getElementById("loader-wrapper");
     loader.style.display = "none";
 });
+
+function togglePasswordVisibility() {
+    var passwordInput = document.getElementById('passwordInput');
+    var showPasswordIcon = document.getElementById('showPassIcon');
+    if (passwordInput.type === 'password') {
+        passwordInput.type = 'text';
+        showPasswordIcon.removeAttribute('class', 'fa fa-eye')
+        showPasswordIcon.setAttribute('class', 'fa fa-eye-slash')
+    } else {
+        passwordInput.type = 'password';
+        showPasswordIcon.removeAttribute('class', 'fa fa-eye-slash')
+        showPasswordIcon.setAttribute('class', 'fa fa-eye')
+    }
+}
+function toggleConfirmPasswordVisibility(){
+    var confirmPasswordInput = document.getElementById('confirmPasswordInput');
+    var showConfirmPassIcon = document.getElementById('showConfirmPassIcon')
+
+    if(confirmPasswordInput.type === 'password'){
+        confirmPasswordInput.type = 'text';
+        showConfirmPassIcon.removeAttribute('class','fa fa-eye')
+        showConfirmPassIcon.setAttribute('class','fa fa-eye-slash')
+    }else{
+        confirmPasswordInput.type = 'password';
+        showConfirmPassIcon.removeAttribute('class','fa fa-eye-slash')
+        showConfirmPassIcon.setAttribute('class','fa fa-eye')
+    }
+}
