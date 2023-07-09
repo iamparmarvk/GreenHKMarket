@@ -512,6 +512,24 @@ a {
     opacity: 0.8;
     text-decoration: line-through;
   }
+  .common-product-container .view-all-products{
+    margin-top: 20px;
+  }
+  .common-product-container .view-all-products a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    font-family: 'Belanosima', sans-serif;
+    background-color: var(--primary-color);
+    padding: 10px;
+  }
+  .common-product-container .view-all-products a:hover{
+    transition: 0.5s ease;
+    background-color: #ff9f29;
+    color: var(--secondary-color);
+  }
+  
+
   .product-item {
     padding: 0px;
     position: relative;
@@ -728,7 +746,96 @@ a {
     font-family: "Belanosima", sans-serif;
   }
   
-
+  .latest-blog-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eeeeee;
+  }
+  .latest-blog-container .heading {
+    color: var(--complementary-color);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: "Belanosima", sans-serif;
+  }
+  .latest-blog-container .card{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: 0.5s ease;
+    margin-top: 15px;
+  }
+  .latest-blog-container .card .card-header{
+    padding: 0px;
+    overflow: hidden;
+    transition: 0.5s ease;
+  }
+  .latest-blog-container .card .img{
+    object-fit: cover;
+    transition: 0.5s ease;
+  }
+  .latest-blog-container .card:hover img{
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+  }
+  .latest-blog-container .card .card-body{
+    width: 100%;
+  }
+  .latest-blog-container .card i{
+    font-size: 1em;
+    color:  var(--primary-color);
+    margin-right: 5px;
+  }
+  .latest-blog-container .card h3{
+    margin-top: -15px;
+  }
+  .latest-blog-container .card .post-author{
+    font-family: 'Belanosima', sans-serif;
+  }
+  .latest-blog-container .card h3 a{
+    text-decoration: none;
+    font-size:large;
+    color: var(--complementary-color);
+    font-weight: 600;
+    transition: 0.4s ease;
+  }
+  .latest-blog-container .card h3 a:hover{
+    transition: 0.4s ease;
+    color: var(--primary-color);
+  }
+  .latest-blog-container .card-footer{
+    background-color: white;
+    padding: 15px;
+  }
+  .latest-blog-container .card-footer .post-date{
+    font-family: 'Belanosima', sans-serif;
+  }
+  .latest-blog-container .action-link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 0.7em;
+    font-weight: 600;
+    transition: 0.4s ease;
+  } 
+  .latest-blog-container .action-link a:hover{
+    transition: 0.4s ease;
+    color: var(--complementary-color);
+    text-decoration: underline;
+  }
+  .latest-blog-container .view-all-blog{
+    margin-top: 20px;
+  }
+  .latest-blog-container .view-all-blog a{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    font-family: 'Belanosima', sans-serif;
+    transition: 0.4s ease;
+  }
+  .latest-blog-container .view-all-blog a:hover{
+    background-color: var(--accent-color);  
+  }
 
 
 
@@ -1401,6 +1508,29 @@ a {
     opacity: 0.8;
     text-decoration: line-through;
   }
+  .common-product-container .view-all-products{
+    margin-top: 20px;
+  }
+  .common-product-container .view-all-products a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    font-family: 'Belanosima', sans-serif;
+    background-color: var(--primary-color);
+    padding: 10px;
+  }
+  .common-product-container .view-all-products a:hover{
+    transition: 0.5s ease;
+    background-color: #ff9f29;
+    color: var(--secondary-color);
+  }
+
+
+
+
+
+
+
 
   .product-item {
     padding: 0px;
@@ -1605,6 +1735,117 @@ a {
     transition: 0.4s ease;
     display: block;
   }
+  .latest-blog-container{
+    padding: 50px 120px 50px 120px;
+    background-color: #eeeeee;
+  }
+  .latest-blog-container .heading {
+    color: var(--complementary-color);
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+  }
+  .latest-blog-container .card{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    width: 95%;
+    overflow: hidden;
+    transition: 0.5s ease;
+  }
+  .latest-blog-container .card .card-header{
+    padding: 0px;
+    overflow: hidden;
+    transition: 0.5s ease;
+
+  }
+  .latest-blog-container .card .img{
+    object-fit: cover;
+    transition: 0.5s ease;
+  }
+  .latest-blog-container .card:hover img{
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+  }
+  .latest-blog-container .card .card-body{
+    width: 100%;
+  }
+  .latest-blog-container .card i{
+    font-size: 1.1em;
+    color:  var(--primary-color);
+    margin-right: 5px;
+  }
+  .latest-blog-container .card h3{
+    margin-top: -15px;
+  }
+  .latest-blog-container .card .post-author{
+    font-family: 'Belanosima', sans-serif;
+  }
+  .latest-blog-container .card h3 a{
+    text-decoration: none;
+    font-size:large;
+    color: var(--complementary-color);
+    font-weight: 600;
+    transition: 0.4s ease;
+  }
+  .latest-blog-container .card h3 a:hover{
+    transition: 0.4s ease;
+    color: var(--primary-color);
+  }
+  .latest-blog-container .card-footer{
+    background-color: white;
+    padding: 20px;
+  }
+  .latest-blog-container .card-footer .post-date{
+    font-family: 'Belanosima', sans-serif;
+  }
+  .latest-blog-container .action-link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: 0.4s ease;
+  } 
+  .latest-blog-container .action-link a:hover{
+    transition: 0.4s ease;
+    color: var(--complementary-color);
+    text-decoration: underline;
+  }
+  .latest-blog-container .view-all-blog{
+    margin-top: 50px;
+  }
+  .latest-blog-container .view-all-blog a{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    font-family: 'Belanosima', sans-serif;
+    transition: 0.4s ease;
+  }
+  .latest-blog-container .view-all-blog a:hover{
+    background-color: var(--accent-color);  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   footer {
     background-color: var(--primary-color);
