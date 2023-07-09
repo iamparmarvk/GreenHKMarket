@@ -68,7 +68,6 @@ a {
   align-items: center;
 }
 
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #loader img {
@@ -173,50 +172,52 @@ a {
     transition: 0.5s ease;
     color: #ff9f29;
   }
-  #carouselExampleCaptions{
+  #carouselExampleCaptions {
     height: 50vh;
     overflow: hidden;
   }
-  #carouselExampleCaptions  .carousel-inner, #carouselExampleCaptions  .carousel-item{
+  #carouselExampleCaptions .carousel-inner,
+  #carouselExampleCaptions .carousel-item {
     height: 50vh;
   }
-  #carouselExampleCaptions  .carousel-inner img{
+  #carouselExampleCaptions .carousel-inner img {
     width: auto;
     height: 50vh;
     object-fit: cover;
   }
-  #carouselExampleCaptions .carousel-caption{
-    top: 37%; 
-    left: 30%; 
+  #carouselExampleCaptions .carousel-caption {
+    top: 37%;
+    left: 30%;
     transform: translate(-50%, -50%);
     color: var(--complementary-color);
   }
-  #carouselExampleCaptions .carousel-caption h5{
+  #carouselExampleCaptions .carousel-caption h5 {
     color: var(--primary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 2.1rem;
     margin-bottom: 10px;
   }
-  #carouselExampleCaptions .carousel-caption p{
+  #carouselExampleCaptions .carousel-caption p {
     width: 100%;
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     font-size: 0.9rem;
     margin-bottom: 10px;
   }
-  #carouselExampleCaptions .carousel-caption .btn{
+  #carouselExampleCaptions .carousel-caption .btn {
     outline: none;
     border: 1px solid var(--primary-color);
     background-color: transparent;
     color: var(--complementary-color);
     border-radius: 0px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 0.8rem;
   }
-  #carouselExampleCaptions .carousel-caption .btn:hover{
+  #carouselExampleCaptions .carousel-caption .btn:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
   }
-  #carouselExampleCaptions .carousel-control-prev, #carouselExampleCaptions .carousel-control-next{
+  #carouselExampleCaptions .carousel-control-prev,
+  #carouselExampleCaptions .carousel-control-next {
     background-color: var(--primary-color);
     height: 25px;
     width: 25px;
@@ -226,197 +227,201 @@ a {
     opacity: 1;
     display: none;
   }
-  #carouselExampleCaptions .carousel-control-prev:hover, #carouselExampleCaptions .carousel-control-next:hover{
+  #carouselExampleCaptions .carousel-control-prev:hover,
+  #carouselExampleCaptions .carousel-control-next:hover {
     opacity: 0.9;
   }
-  #carouselExampleCaptions .carousel-indicators button{
+  #carouselExampleCaptions .carousel-indicators button {
     background-color: var(--primary-color);
     height: 5px;
     opacity: 1;
   }
-  #carouselExampleCaptions .carousel-indicators .active{
+  #carouselExampleCaptions .carousel-indicators .active {
     color: var(--complementary-color);
     background-color: #212121;
   }
-  .advertisement-container{
-    background: linear-gradient(305deg, rgba(255,193,7,1) 35%, rgba(76,175,80,1) 72%);
+  .advertisement-container {
+    background: linear-gradient(
+      305deg,
+      rgba(255, 193, 7, 1) 35%,
+      rgba(76, 175, 80, 1) 72%
+    );
     padding-top: 20px;
     padding-bottom: 20px;
   }
-  .advertisement-container .col-lg-6{
+  .advertisement-container .col-lg-6 {
     color: black;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
   }
-  .advertisement-container .large-ad{
+  .advertisement-container .large-ad {
     width: 92%;
     margin: auto;
   }
-  .advertisement-container .large-ad img{
+  .advertisement-container .large-ad img {
     width: 100%;
     position: relative;
     object-fit: contain;
     transform: scale(1.2);
     transition: 0.5s ease;
   }
-  .advertisement-container .large-ad .content{
+  .advertisement-container .large-ad .content {
     position: absolute;
     top: 10%;
     width: 100%;
     padding: 10px;
   }
-  .advertisement-container .large-ad .content h4{
-    color:  var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+  .advertisement-container .large-ad .content h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
     font-size: 25px;
   }
-  .advertisement-container .large-ad .content .btn{
+  .advertisement-container .large-ad .content .btn {
     margin-top: 10px;
     outline: none;
     border: 1px solid var(--primary-color);
     background-color: transparent;
     color: var(--complementary-color);
     border-radius: 0px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 1rem;
   }
-  .advertisement-container .large-ad .content .btn:hover{
+  .advertisement-container .large-ad .content .btn:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
   }
-  .advertisement-container .small-ad-row{ 
+  .advertisement-container .small-ad-row {
     height: 240px;
     position: relative;
     background-color: var(--secondary-color);
     margin: 5px;
     overflow: hidden;
     border-radius: 10px;
-  } 
-  .advertisement-container .small-ad-row img{ 
+  }
+  .advertisement-container .small-ad-row img {
     width: 100%;
     height: 90%;
     object-fit: contain;
     transition: 0.5s ease;
   }
-  .advertisement-container .small-ad-row .ad-right-side .content{
+  .advertisement-container .small-ad-row .ad-right-side .content {
     position: absolute;
     top: 25%;
     left: 3%;
     width: 80%;
   }
-  .advertisement-container .ad-right-side .content h4{
-    color:  var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+  .advertisement-container .ad-right-side .content h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
     font-size: 22px;
     padding: 10px;
   }
-  .advertisement-container .stylish-font{
-    font-family: 'Satisfy', cursive;
+  .advertisement-container .stylish-font {
+    font-family: "Satisfy", cursive;
     color: var(--accent-color);
   }
-  .stylish-font{
-    font-family: 'Satisfy', cursive;
+  .stylish-font {
+    font-family: "Satisfy", cursive;
     color: var(--accent-color);
   }
-  .advertisement-container .ad-right-side .content .btn{
+  .advertisement-container .ad-right-side .content .btn {
     margin-top: 10px;
     outline: none;
     border: 1px solid var(--primary-color);
     background-color: transparent;
     color: var(--complementary-color);
     border-radius: 0px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 0.9rem;
   }
-  .advertisement-container .ad-right-side .content .btn:hover{
+  .advertisement-container .ad-right-side .content .btn:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
   }
-  .advertisement-container .small-ad-row .ad-left-side .content{
+  .advertisement-container .small-ad-row .ad-left-side .content {
     position: absolute;
     text-align: right;
     top: 15%;
     right: 3%;
     width: 80%;
   }
-  .advertisement-container .ad-left-side .content h4{
-    color:  var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+  .advertisement-container .ad-left-side .content h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
     font-size: 22px;
     padding: 10px;
   }
-  .advertisement-container .ad-left-side .content .btn{
+  .advertisement-container .ad-left-side .content .btn {
     margin-top: 10px;
     outline: none;
     border: 1px solid var(--primary-color);
     background-color: transparent;
     color: var(--complementary-color);
     border-radius: 0px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 0.9rem;
   }
-  .advertisement-container .ad-left-side .content .btn:hover{
+  .advertisement-container .ad-left-side .content .btn:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
   }
-  .advertisement-container .large-ad:hover img{
+  .advertisement-container .large-ad:hover img {
     transition: 0.5s ease;
     transform: scale(1.3);
   }
-  .advertisement-container .small-ad-col:hover img{
+  .advertisement-container .small-ad-col:hover img {
     transition: 0.5s ease;
     transform: scale(1.1);
   }
 
-  
-  .common-product-container{
+  .common-product-container {
     padding: 20px;
   }
-  .common-product-container .heading{
+  .common-product-container .heading {
     color: var(--complementary-color);
     font-size: 2rem;
     margin-bottom: 20px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .common-product-container .col-md-3{
+  .common-product-container .col-md-3 {
     padding: 0px;
   }
-  .common-product-container .product-item{
+  .common-product-container .product-item {
     padding: 0px;
     position: relative;
-    border: 2px solid #EEEEEE;
+    border: 2px solid #eeeeee;
     width: 95%;
     margin: 10px;
   }
-  .common-product-container .product-item:hover{
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  .common-product-container .product-item:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
-  .common-product-container .product-item .product-img{
+  .common-product-container .product-item .product-img {
     text-align: center;
     width: auto;
     height: auto;
     position: relative;
   }
-  .common-product-container .product-img img{
+  .common-product-container .product-img img {
     width: 100%;
     object-fit: fill;
     position: relative;
   }
-  .common-product-container .product-item .product-badge{
+  .common-product-container .product-item .product-badge {
     position: absolute;
     text-align: right;
     top: 2%;
     right: 2%;
     font-size: 1em;
   }
-  .common-product-container .product-item .product-badge .badge{
+  .common-product-container .product-item .product-badge .badge {
     background-color: var(--primary-color);
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
     letter-spacing: 1px;
     border-radius: 10px 0px 10px 0px;
   }
-  .common-product-container .product-action{
+  .common-product-container .product-action {
     position: absolute;
     bottom: 0;
     top: 30%;
@@ -426,17 +431,17 @@ a {
     transition: height 0.9s ease;
     transform: translateY(100%);
   }
-  .common-product-container .product-item:hover .product-action{
+  .common-product-container .product-item:hover .product-action {
     display: block;
     animation: slide-up 0.3s ease forwards;
     width: 100%;
   }
-  .common-product-container .product-action ul{
+  .common-product-container .product-action ul {
     list-style-type: none;
     text-align: center;
     width: 100%;
   }
-  .common-product-container .product-action ul li{
+  .common-product-container .product-action ul li {
     display: inline;
     background-color: white;
     padding: 10px;
@@ -446,110 +451,234 @@ a {
     transition: 0.4s ease;
     cursor: pointer;
   }
-  .common-product-container .product-action ul li:hover{
+  .common-product-container .product-action ul li:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     transition: 0.4s ease;
   }
-  .common-product-container .product-action ul a{
+  .common-product-container .product-action ul a {
     transition: 0.4s ease;
     margin: auto;
     text-decoration: none;
-    color:  var(--complementary-color);
+    color: var(--complementary-color);
     font-size: 0.9rem;
     width: 100%;
   }
-  .common-product-container .product-action ul li:hover a{
+  .common-product-container .product-action ul li:hover a {
     transition: 0.4s ease;
     color: var(--secondary-color);
   }
-  .common-product-container .product-content{
+  .common-product-container .product-content {
     padding: 20px 10px 20px 15px;
     min-height: 165px;
   }
-  .common-product-container .product-rating ul{
+  .common-product-container .product-rating ul {
     list-style-type: none;
-    padding: 0px;    
+    padding: 0px;
     margin: 0px;
   }
-  .common-product-container .product-rating ul li{  
+  .common-product-container .product-rating ul li {
     display: inline;
     color: orange;
     font-size: 0.8em;
   }
-  .common-product-container .product-content .product-title{
+  .common-product-container .product-content .product-title {
     padding: 0px;
     margin: 5px 0px 0px 0px;
     transition: 0.5s ease;
   }
-  .common-product-container .product-content .product-title a{
+  .common-product-container .product-content .product-title a {
     text-decoration: none;
     font-size: 1em;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     color: var(--complementary-color);
   }
-  .common-product-container .product-content .product-title a:hover{
+  .common-product-container .product-content .product-title a:hover {
     transition: 0.5s ease;
-    color:  var(--primary-color);
+    color: var(--primary-color);
   }
-  .common-product-container .product-content .product-price{
+  .common-product-container .product-content .product-price {
     display: flex;
     grid-column: auto;
     column-gap: 10px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-weight: 500;
-    color:  var(--primary-color);
+    color: var(--primary-color);
     vertical-align: middle;
     font-size: 1.1em;
     margin-top: 5px;
   }
-  .common-product-container .product-content .product-deal-price{
+  .common-product-container .product-content .product-deal-price {
     opacity: 0.8;
-    text-decoration:line-through;
+    text-decoration: line-through;
+  }
+  .product-item {
+    padding: 0px;
+    position: relative;
+    border: 2px solid #eeeeee;
+    width: 95%;
+    margin: 10px;
+  }
+  .product-item:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .product-item .product-img {
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .product-img img {
+    width: 100%;
+    object-fit: fill;
+    position: relative;
+  }
+  .product-item .product-badge {
+    position: absolute;
+    text-align: right;
+    top: 2%;
+    right: 2%;
+    font-size: 1em;
+  }
+  .product-item .product-badge .badge {
+    background-color: var(--primary-color);
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 1px;
+    border-radius: 10px 0px 10px 0px;
+  }
+  .product-action {
+    position: absolute;
+    bottom: 0;
+    top: 30%;
+    right: 8%;
+    display: none;
+    height: 0;
+    transition: height 0.9s ease;
+    transform: translateY(100%);
+  }
+  .product-item:hover .product-action {
+    display: block;
+    animation: slide-up 0.3s ease forwards;
+    width: 100%;
+  }
+  .product-action ul {
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+  }
+  .product-action ul li {
+    display: inline;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    cursor: pointer;
+  }
+  .product-action ul li:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: 0.4s ease;
+  }
+  .product-action ul a {
+    transition: 0.4s ease;
+    margin: auto;
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .product-action ul li:hover a {
+    transition: 0.4s ease;
+    color: var(--secondary-color);
+  }
+  .product-content {
+    padding: 20px 10px 20px 15px;
+    min-height: 165px;
+  }
+  .product-rating ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .product-rating ul li {
+    display: inline;
+    color: orange;
+    font-size: 0.8em;
+  }
+  .product-content .product-title {
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+    transition: 0.5s ease;
+  }
+  .product-content .product-title a {
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Belanosima", sans-serif;
+    color: var(--complementary-color);
+  }
+  .product-content .product-title a:hover {
+    transition: 0.5s ease;
+    color: var(--primary-color);
+  }
+  .product-content .product-price {
+    display: flex;
+    grid-column: auto;
+    column-gap: 10px;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 500;
+    color: var(--primary-color);
+    vertical-align: middle;
+    font-size: 1.1em;
+    margin-top: 5px;
+  }
+  .product-content .product-deal-price {
+    opacity: 0.8;
+    text-decoration: line-through;
   }
 
-
-
-  .clients-testimonials-container{
+  .clients-testimonials-container {
     padding-top: 20px;
     padding-bottom: 30px;
     background-color: #f3f4f6;
   }
-  .clients-testimonials-container .testimonial-item{
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  .clients-testimonials-container .testimonial-item {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     width: 95%;
     margin: 10px;
     height: 95%;
     padding: 10px;
     background-color: white;
   }
-  .clients-testimonials-container #testimonialsCarousel .client-img{
+  .clients-testimonials-container #testimonialsCarousel .client-img {
     overflow: hidden;
   }
-  .clients-testimonials-container #testimonialsCarousel .client-img img{
+  .clients-testimonials-container #testimonialsCarousel .client-img img {
     width: auto;
     height: auto;
     object-fit: contain;
     margin-top: 30px;
     border-radius: 10px;
   }
-  .clients-testimonials-container #testimonialsCarousel .client-details{
+  .clients-testimonials-container #testimonialsCarousel .client-details {
     padding: 10px 10px 0px 10px;
     position: relative;
     font-size: 0.9em;
     text-align: justify;
   }
-  .clients-testimonials-container #testimonialsCarousel .review-content{
-    font-family: 'Belanosima', sans-serif;
+  .clients-testimonials-container #testimonialsCarousel .review-content {
+    font-family: "Belanosima", sans-serif;
   }
-  .clients-testimonials-container #testimonialsCarousel .client-name{
+  .clients-testimonials-container #testimonialsCarousel .client-name {
     color: var(--primary-color);
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     position: absolute;
     bottom: -5%;
     font-size: 1.2em;
   }
-  #testimonialsCarousel .carousel-control-prev, #testimonialsCarousel .carousel-control-next{
+  #testimonialsCarousel .carousel-control-prev,
+  #testimonialsCarousel .carousel-control-next {
     background-color: var(--primary-color);
     width: 50px;
     height: 50px;
@@ -558,21 +687,47 @@ a {
     display: none;
     transition: 0.4s ease;
   }
-  .clients-testimonials-container .heading{
+  .clients-testimonials-container .heading {
     color: var(--complementary-color);
     font-size: 2.5rem;
     margin-bottom: 30px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .clients-testimonials-container #testimonialsCarousel:hover .carousel-control-prev,.clients-testimonials-container #testimonialsCarousel:hover .carousel-control-next{
+  .clients-testimonials-container
+    #testimonialsCarousel:hover
+    .carousel-control-prev,
+  .clients-testimonials-container
+    #testimonialsCarousel:hover
+    .carousel-control-next {
     transition: 0.4s ease;
     display: block;
   }
 
-
-
-
-
+  .health-wellness-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .health-wellness-container .carousel-item{
+    padding: 0px 20px 0px 10px;
+  }
+  #healthWellnessCarousel .carousel-item .col-6{
+    padding: 0px;
+  }
+  #healthWellnessCarousel .carousel-control-prev,
+  #healthWellnessCarousel .carousel-control-next {
+    background-color: var(--primary-color);
+    width: 30px;
+    height: 30px;
+    margin: auto;
+    padding: 10px;
+  }
+  .health-wellness-container .heading {
+    color: var(--complementary-color);
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+  }
+  
 
 
 
@@ -916,48 +1071,50 @@ a {
     color: #ff9f29;
   }
 
-  #carouselExampleCaptions{
+  #carouselExampleCaptions {
     height: 650px;
     overflow: hidden;
   }
-  #carouselExampleCaptions  .carousel-inner, #carouselExampleCaptions  .carousel-item{
+  #carouselExampleCaptions .carousel-inner,
+  #carouselExampleCaptions .carousel-item {
     height: 650px;
   }
-  #carouselExampleCaptions  .carousel-inner img{
+  #carouselExampleCaptions .carousel-inner img {
     height: 650;
     object-fit: cover;
   }
-  #carouselExampleCaptions .carousel-caption{
-    top: 50%; 
-    left: 25%; 
+  #carouselExampleCaptions .carousel-caption {
+    top: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
     color: var(--complementary-color);
   }
-  #carouselExampleCaptions .carousel-caption h5{
+  #carouselExampleCaptions .carousel-caption h5 {
     color: var(--primary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 4rem;
     margin-bottom: 20px;
   }
-  #carouselExampleCaptions .carousel-caption p{
-    font-family: 'Satisfy', cursive;
+  #carouselExampleCaptions .carousel-caption p {
+    font-family: "Satisfy", cursive;
     font-size: 1.5rem;
     margin-bottom: 20px;
   }
-  #carouselExampleCaptions .carousel-caption .btn{
+  #carouselExampleCaptions .carousel-caption .btn {
     outline: none;
     border: 1px solid var(--primary-color);
     background-color: transparent;
     color: var(--complementary-color);
     border-radius: 0px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 1.1rem;
   }
-  #carouselExampleCaptions .carousel-caption .btn:hover{
+  #carouselExampleCaptions .carousel-caption .btn:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
   }
-  #carouselExampleCaptions .carousel-control-prev, #carouselExampleCaptions .carousel-control-next{
+  #carouselExampleCaptions .carousel-control-prev,
+  #carouselExampleCaptions .carousel-control-next {
     background-color: var(--primary-color);
     height: 50px;
     width: 50px;
@@ -965,30 +1122,35 @@ a {
     color: var(--complementary-color);
     opacity: 1;
   }
-  #carouselExampleCaptions .carousel-control-prev:hover, #carouselExampleCaptions .carousel-control-next:hover{
+  #carouselExampleCaptions .carousel-control-prev:hover,
+  #carouselExampleCaptions .carousel-control-next:hover {
     opacity: 0.9;
   }
-  #carouselExampleCaptions .carousel-indicators button{
+  #carouselExampleCaptions .carousel-indicators button {
     background-color: var(--primary-color);
     height: 10px;
     opacity: 1;
   }
-  #carouselExampleCaptions .carousel-indicators .active{
+  #carouselExampleCaptions .carousel-indicators .active {
     color: var(--complementary-color);
     background-color: #212121;
   }
-  .advertisement-container{
-    background: linear-gradient(305deg, rgba(255,193,7,1) 35%, rgba(76,175,80,1) 72%);
+  .advertisement-container {
+    background: linear-gradient(
+      305deg,
+      rgba(255, 193, 7, 1) 35%,
+      rgba(76, 175, 80, 1) 72%
+    );
     padding: 50px 180px 50px 180px;
   }
-  .advertisement-container .col-lg-6{
+  .advertisement-container .col-lg-6 {
     color: black;
     height: 500px;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
   }
-  .advertisement-container .large-ad img{
+  .advertisement-container .large-ad img {
     width: 100%;
     position: relative;
     object-fit: contain;
@@ -996,32 +1158,32 @@ a {
     transform: scale(1.2);
     transition: 0.5s ease;
   }
-  .advertisement-container .large-ad .content{
+  .advertisement-container .large-ad .content {
     position: absolute;
     top: 10%;
     width: 100%;
     padding: 10px;
   }
-  .advertisement-container .large-ad .content h4{
-    color:  var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+  .advertisement-container .large-ad .content h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
     font-size: 45px;
   }
-  .advertisement-container .large-ad .content .btn{
+  .advertisement-container .large-ad .content .btn {
     margin-top: 10px;
     outline: none;
     border: 1px solid var(--primary-color);
     background-color: transparent;
     color: var(--complementary-color);
     border-radius: 0px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 1.1rem;
   }
-  .advertisement-container .large-ad .content .btn:hover{
+  .advertisement-container .large-ad .content .btn:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
   }
-  .advertisement-container .small-ad-row{ 
+  .advertisement-container .small-ad-row {
     height: 240px;
     width: 100%;
     position: relative;
@@ -1029,127 +1191,127 @@ a {
     margin: 5px;
     overflow: hidden;
     border-radius: 10px;
-  } 
-  .advertisement-container .small-ad-row img{ 
+  }
+  .advertisement-container .small-ad-row img {
     width: 100%;
     height: 90%;
     object-fit: contain;
     transition: 0.5s ease;
   }
-  .advertisement-container .small-ad-row .ad-right-side .content{
+  .advertisement-container .small-ad-row .ad-right-side .content {
     position: absolute;
     top: 25%;
     left: 3%;
-    width: 100%;  
+    width: 100%;
   }
-  .advertisement-container .ad-right-side .content h4{
-    color:  var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+  .advertisement-container .ad-right-side .content h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
     font-size: 30px;
   }
-  .advertisement-container .stylish-font{
-    font-family: 'Satisfy', cursive;
+  .advertisement-container .stylish-font {
+    font-family: "Satisfy", cursive;
     color: var(--accent-color);
   }
-  .stylish-font{
-    font-family: 'Satisfy', cursive;
+  .stylish-font {
+    font-family: "Satisfy", cursive;
     color: var(--accent-color);
   }
-  .advertisement-container .ad-right-side .content .btn{
+  .advertisement-container .ad-right-side .content .btn {
     margin-top: 10px;
     outline: none;
     border: 1px solid var(--primary-color);
     background-color: transparent;
     color: var(--complementary-color);
     border-radius: 0px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 1rem;
   }
-  .advertisement-container .ad-right-side .content .btn:hover{
+  .advertisement-container .ad-right-side .content .btn:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
   }
-  .advertisement-container .small-ad-row .ad-left-side .content{
+  .advertisement-container .small-ad-row .ad-left-side .content {
     position: absolute;
     text-align: right;
     top: 15%;
     right: 3%;
     width: 100%;
   }
-  .advertisement-container .ad-left-side .content h4{
-    color:  var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+  .advertisement-container .ad-left-side .content h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
     font-size: 30px;
   }
-  .advertisement-container .ad-left-side .content .btn{
+  .advertisement-container .ad-left-side .content .btn {
     margin-top: 10px;
     outline: none;
     border: 1px solid var(--primary-color);
     background-color: transparent;
     color: var(--complementary-color);
     border-radius: 0px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 1rem;
   }
-  .advertisement-container .ad-left-side .content .btn:hover{
+  .advertisement-container .ad-left-side .content .btn:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
   }
-  .advertisement-container .large-ad:hover img{
+  .advertisement-container .large-ad:hover img {
     transition: 0.5s ease;
     transform: scale(1.3);
   }
-  .advertisement-container .small-ad-col:hover img{
+  .advertisement-container .small-ad-col:hover img {
     transition: 0.5s ease;
     transform: scale(1.1);
   }
-  .common-product-container{
+  .common-product-container {
     padding: 50px 150px 50px 150px;
   }
-  .common-product-container .heading{
+  .common-product-container .heading {
     color: var(--complementary-color);
     font-size: 3.5rem;
     margin-bottom: 30px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .common-product-container .col-md-3{
+  .common-product-container .col-md-3 {
     padding: 0px;
   }
-  .common-product-container .product-item{
+  .common-product-container .product-item {
     padding: 0px;
     position: relative;
-    border: 2px solid #EEEEEE;
+    border: 2px solid #eeeeee;
     width: 95%;
     margin: 10px;
   }
-  .common-product-container .product-item:hover{
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  .common-product-container .product-item:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
   }
-  .common-product-container .product-item .product-img{
+  .common-product-container .product-item .product-img {
     text-align: center;
     width: auto;
     height: auto;
     position: relative;
   }
-  .common-product-container .product-img img{
+  .common-product-container .product-img img {
     width: 100%;
     object-fit: fill;
     position: relative;
   }
-  .common-product-container .product-item .product-badge{
+  .common-product-container .product-item .product-badge {
     position: absolute;
     text-align: right;
     top: 2%;
     right: 2%;
     font-size: 1.2em;
   }
-  .common-product-container .product-item .product-badge .badge{
+  .common-product-container .product-item .product-badge .badge {
     background-color: var(--primary-color);
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
     letter-spacing: 1px;
     border-radius: 10px 0px 10px 0px;
   }
-  .common-product-container .product-action{
+  .common-product-container .product-action {
     position: absolute;
     bottom: 0;
     top: 30%;
@@ -1159,16 +1321,16 @@ a {
     transition: height 0.9s ease;
     transform: translateY(100%);
   }
-  .common-product-container .product-item:hover .product-action{
+  .common-product-container .product-item:hover .product-action {
     display: block;
     animation: slide-up 0.3s ease forwards;
   }
-  .common-product-container .product-action ul{
+  .common-product-container .product-action ul {
     list-style-type: none;
     text-align: center;
     vertical-align: middle;
   }
-  .common-product-container .product-action ul li{
+  .common-product-container .product-action ul li {
     display: inline;
     background-color: white;
     padding: 15px;
@@ -1178,101 +1340,248 @@ a {
     transition: 0.4s ease;
     cursor: pointer;
   }
-  .common-product-container .product-action ul li:hover{
+  .common-product-container .product-action ul li:hover {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     transition: 0.4s ease;
   }
-  .common-product-container .product-action ul a{
+  .common-product-container .product-action ul a {
     transition: 0.4s ease;
     margin: auto;
     text-decoration: none;
-    color:  var(--complementary-color);
+    color: var(--complementary-color);
     font-size: 1.1rem;
     width: 100%;
   }
-  .common-product-container .product-action ul li:hover a{
+  .common-product-container .product-action ul li:hover a {
     transition: 0.4s ease;
     color: var(--secondary-color);
   }
-  .common-product-container .product-content{
+  .common-product-container .product-content {
     padding: 20px 10px 20px 15px;
     min-height: 165px;
   }
-  .common-product-container .product-rating ul{
+  .common-product-container .product-rating ul {
     list-style-type: none;
-    padding: 0px;    
+    padding: 0px;
     margin: 0px;
   }
-  .common-product-container .product-rating ul li{  
+  .common-product-container .product-rating ul li {
     display: inline;
     color: orange;
     font-size: 0.9em;
   }
-  .common-product-container .product-content .product-title{
+  .common-product-container .product-content .product-title {
     padding: 0px;
     margin: 5px 0px 0px 0px;
     transition: 0.5s ease;
   }
-  .common-product-container .product-content .product-title a{
+  .common-product-container .product-content .product-title a {
     text-decoration: none;
     font-size: 1.2em;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     color: var(--complementary-color);
   }
-  .common-product-container .product-content .product-title a:hover{
+  .common-product-container .product-content .product-title a:hover {
     transition: 0.5s ease;
-    color:  var(--primary-color);
+    color: var(--primary-color);
   }
-  .common-product-container .product-content .product-price{
+  .common-product-container .product-content .product-price {
     display: flex;
     grid-column: auto;
     column-gap: 10px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-weight: 500;
-    color:  var(--primary-color);
+    color: var(--primary-color);
     vertical-align: middle;
     font-size: 1.3em;
     margin-top: 5px;
   }
-  .common-product-container .product-content .product-deal-price{
+  .common-product-container .product-content .product-deal-price {
     opacity: 0.8;
-    text-decoration:line-through;
+    text-decoration: line-through;
   }
-  .clients-testimonials-container{
+
+  .product-item {
+    padding: 0px;
+    position: relative;
+    border: 2px solid #eeeeee;
+    width: 95%;
+    margin: 10px;
+  }
+  .product-item:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .product-item .product-img {
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+    border-bottom: 2px solid #eeeeee;
+  }
+  .product-img img {
+    width: 100%;
+    object-fit: fill;
+    position: relative;
+  }
+  .product-item .product-badge {
+    position: absolute;
+    text-align: right;
+    top: 2%;
+    right: 2%;
+    font-size: 1.2em;
+  }
+  .product-item .product-badge .badge {
+    background-color: var(--primary-color);
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 1px;
+    border-radius: 10px 0px 10px 0px;
+  }
+  .product-action {
+    position: absolute;
+    bottom: 0;
+    top: 30%;
+    left: 15%;
+    display: none;
+    height: 0;
+    transition: height 0.9s ease;
+    transform: translateY(100%);
+  }
+  .product-item:hover .product-action {
+    display: block;
+    animation: slide-up 0.3s ease forwards;
+  }
+  .product-action ul {
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .product-action ul li {
+    display: inline;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    cursor: pointer;
+  }
+  .product-action ul li:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: 0.4s ease;
+  }
+  .product-action ul a {
+    transition: 0.4s ease;
+    margin: auto;
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-size: 1.1rem;
+    width: 100%;
+  }
+  .product-action ul li:hover a {
+    transition: 0.4s ease;
+    color: var(--secondary-color);
+  }
+  .product-content {
+    padding: 20px 10px 20px 15px;
+    min-height: 165px;
+  }
+  .product-rating ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .product-rating ul li {
+    display: inline;
+    color: orange;
+    font-size: 0.9em;
+  }
+  .product-content .product-title {
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+    transition: 0.5s ease;
+  }
+  .product-content .product-title a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: "Belanosima", sans-serif;
+    color: var(--complementary-color);
+  }
+  .product-content .product-title a:hover {
+    transition: 0.5s ease;
+    color: var(--primary-color);
+  }
+  .product-content .product-price {
+    display: flex;
+    grid-column: auto;
+    column-gap: 10px;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 500;
+    color: var(--primary-color);
+    vertical-align: middle;
+    font-size: 1.3em;
+    margin-top: 5px;
+  }
+  .product-content .product-deal-price {
+    opacity: 0.8;
+    text-decoration: line-through;
+  }
+  .health-wellness-container {
+    padding: 50px;
+  }
+  .health-wellness-container #healthWellnessCarousel {
+    padding: 0px 70px 10px 70px;
+  }
+  #healthWellnessCarousel .carousel-control-prev,
+  #healthWellnessCarousel .carousel-control-next {
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+  .health-wellness-container .heading {
+    color: var(--complementary-color);
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+  }
+
+  .clients-testimonials-container {
     padding: 50px;
     background-color: #f3f4f6;
   }
-  .clients-testimonials-container .testimonial-item{
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+  .clients-testimonials-container .testimonial-item {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
     width: 95%;
     margin: 10px;
     height: 95%;
     padding: 15px;
     background-color: white;
   }
-  .clients-testimonials-container #testimonialsCarousel .client-img{
+  .clients-testimonials-container #testimonialsCarousel .client-img {
     overflow: hidden;
   }
-  .clients-testimonials-container #testimonialsCarousel .client-img img{
+  .clients-testimonials-container #testimonialsCarousel .client-img img {
     width: 350px;
     height: 100%;
     object-fit: cover;
   }
-  .clients-testimonials-container #testimonialsCarousel .client-details{
+  .clients-testimonials-container #testimonialsCarousel .client-details {
     padding: 10px 10px 0px 10px;
     position: relative;
   }
-  .clients-testimonials-container #testimonialsCarousel .review-content{
-    font-family: 'Belanosima', sans-serif;
+  .clients-testimonials-container #testimonialsCarousel .review-content {
+    font-family: "Belanosima", sans-serif;
   }
-  .clients-testimonials-container #testimonialsCarousel .client-name{
+  .clients-testimonials-container #testimonialsCarousel .client-name {
     color: var(--primary-color);
-    font-family: 'Satisfy', cursive;
+    font-family: "Satisfy", cursive;
     position: absolute;
     bottom: -5%;
   }
-  #testimonialsCarousel .carousel-control-prev, #testimonialsCarousel .carousel-control-next{
+  #testimonialsCarousel .carousel-control-prev,
+  #testimonialsCarousel .carousel-control-next {
     background-color: var(--primary-color);
     width: 50px;
     height: 50px;
@@ -1281,36 +1590,21 @@ a {
     display: none;
     transition: 0.4s ease;
   }
-  .clients-testimonials-container .heading{
+  .clients-testimonials-container .heading {
     color: var(--complementary-color);
     font-size: 3.5rem;
     margin-bottom: 30px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .clients-testimonials-container #testimonialsCarousel:hover .carousel-control-prev,.clients-testimonials-container #testimonialsCarousel:hover .carousel-control-next{
+  .clients-testimonials-container
+    #testimonialsCarousel:hover
+    .carousel-control-prev,
+  .clients-testimonials-container
+    #testimonialsCarousel:hover
+    .carousel-control-next {
     transition: 0.4s ease;
     display: block;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   footer {
     background-color: var(--primary-color);
