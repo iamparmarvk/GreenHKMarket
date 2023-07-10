@@ -890,13 +890,20 @@ a {
   .account-form .sign-in-link-row a{
     text-decoration: none;
     color: var(--complementary-color);
-    font-family: 'Roboto Slab', serif;
-    font-size: 0.8rem;
+    font-family: 'Belanosima', sans-serif;
   }
   .account-form .sign-in-link-row a:hover{
     color: var(--primary-color);
   }
-
+  .account-form .reset-password-link{
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    float: right;
+  }
+  .account-form .reset-password-link:hover{
+      color: var(--primary-color);
+  }
 
 
 
@@ -1899,7 +1906,6 @@ a {
     background-color: var(--accent-color);
   }
   .account-form{
-    border: 2px solid black;
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -1942,9 +1948,9 @@ a {
     outline: none;
     border: none;
     font-family: 'Belanosima', sans-serif;
-    font-size: 1.2em;
-    padding: 5px;
-    min-width: 200px;
+    font-size: 1.1em;
+    padding: 10px;
+    min-width: 120px;
   }
   .account-form .sign-in-link-row{
     text-align: center;
@@ -1952,12 +1958,20 @@ a {
   .account-form .sign-in-link-row a{
     text-decoration: none;
     color: var(--complementary-color);
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Belanosima', sans-serif;
   }
   .account-form .sign-in-link-row a:hover{
     color: var(--primary-color);
   }
-
+  .account-form .reset-password-link{
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    float: right;
+  }
+  .account-form .reset-password-link:hover{
+      color: var(--primary-color);
+  }
 
 
 
