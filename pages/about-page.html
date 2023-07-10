@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>GreenHKMarket - Organic and Sustainable Products in the UK</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GreenHKMarket - Organic and Sustainable Products in the UK">
+  <meta name="keywords" content="greenHKMarket, organic products, sustainable products, UK, eco-friendly, green lifestyle">
+  <link rel="icon" href="../assets/images/theme-logo/favicon/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto+Slab&family=Satisfy&family=Ubuntu&family=Work+Sans&display=swap" rel="stylesheet">
+  <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader">
+      <img src="../assets/images/theme-logo/logo.png" alt="GreenHKMarket Logo">
+      <div class="loader-text">Loading...</div>
+    </div>
+  </div>
+  <main>
+    <div class="page-wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../assets/images/theme-logo/logo.png" class="img-fluid" alt="GreenHKMarket Logo">
+            </a>
+            <div class="navbar-toggler" onclick="navbarToggle(this)" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="javascript:void(0)">Organic Food and Groceries</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Eco-Friendly Home and Kitchen</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Natural Beauty and Personal Care</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Sustainable Fashion</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Health and Wellness</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0)">Contact us</a>
+                </li>
+              </ul>
+              <form class="d-flex me-auto mb-2 mb-lg-0" role="search">
+                <div class="input-group">
+                  <select class="form-select" aria-label="Category" id="category-select" name="category-select">
+                    <option value="all" class="select-item">All</option>
+                    <option value="Food and Groceries">Food and Groceries</option>
+                    <option value="Home and Kitchen">Home and Kitchen</option>
+                    <option value="Beauty Care">Beauty Care</option>
+                    <option value="Sustainable Fashion">Sustainable Fashion</option>
+                    <option value="Health and Wellness">Health and Wellness</option>
+                  </select>
+                  <input type="text" class="form-control search-input" aria-label="Text input with category select" placeholder="Search products">
+                  <a href="javascript:void(0)" class="btn btn-outline-secondary" type="button" id="search-button"><i class="fa fa-search"></i></a>
+                </div>                
+              </form>
+              <div class="d-flex icon-container mb-2 mb-lg-0 justify-content-end align-items-center">
+                <a href="register.html"><i class="fa fa-user"></i> Account</a>
+                <a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Heading container -->
+      <div class="container-fluid heading-container">
+        <div class="image-overlay">
+          <img src="../assets/images/others/heading-image.png" class="img-fluid" alt="heading-img">
+        </div>
+        <div class="row justify-content-around align-items-center align-self-center heading-row-content">
+            <div class="col-12 col-md-6 col-lg-6 heading-page-title">
+                <h5>WELCOME TO GREENHKMARKET</h5>
+                <h1>Account</h1>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 heading-beadcrumb">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb text-light">
+                      <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">About us</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+      </div>
+
+      <div class="container-fluid about-container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6">
+            <img src="../assets/images/others/about-banner.png" class="img-fluid" alt="about-img">
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 about-content">
+            <h5 class="about-title">KNOW MORE ABOUT SHOP</h5>
+            <h2 class="store-name">Trusted organic and eco friendly store</h2>
+            <p class="about-para">sellers who aspire to be good, do good, and spread goodness. We democratic, self-sustaining, two-sided marketplace which thrives on trust and is built on community and quality content.</p>
+            <p class="about-para">sellers who aspire to be good, do good, and spread goodness. We democratic, self-sustaining, two-sided marketplace which thrives on trust and is built on community and quality content.</p>
+            <p class="about-para">sellers who aspire to be good, do good, and spread goodness. We democratic, self-sustaining, two-sided marketplace which thrives on trust and is built on community and quality content.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid feature-container">
+        <h2 class="heading text-center">Why Choose Us<span class="stylish-font">.</span> </h2>
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="feature-item">
+              <div class="title-icon-content d-flex ">
+                <div class="icon-item"><i class="fa fa-check"></i> </div>
+                <div class="item-content">Extensive Selection</div>
+              </div>
+              <div class="item-para">
+                <p>We offer a comprehensive collection of all kinds of brands.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="feature-item">
+              <div class="title-icon-content d-flex">
+                <div class="icon-item"><i class="fa fa-check"></i> </div>
+                <div class="item-content">Quality Assurance</div>
+              </div>
+              <div class="item-para">
+                <p>We are committed to delivering products that meet the highest standards of quality.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4 col-lg-4">
+            <div class="feature-item">
+              <div class="title-icon-content d-flex">
+                <div class="icon-item"><i class="fa fa-check"></i> </div>
+                <div class="item-content">Environmental Responsibility</div>
+              </div>
+              <div class="item-para">
+                <p>GreenHKMarket is dedicated to making a positive impact on the environment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid about-faq">
+        <div class="row">
+        <h2 class="heading text-center">Some Questions<span class="stylish-font">.</span> </h2>
+          <div class="col-12 col-md-6 col-lg-6 m-auto">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item" >
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What types of products do you offer at GreenHKMarket?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">At GreenHKMarket, we offer a wide range of sustainable products to support a green lifestyle. Our inventory includes organic food, eco-friendly cleaning supplies, sustainable fashion, zero-waste essentials, and much more. Explore our diverse selection to find products that align with your sustainability goals.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    How do you ensure the quality of the brands and products you carry?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Quality assurance is of utmost importance to us. We carefully curate brands based on their commitment to sustainability, ethical sourcing, and environmental responsibility. Each brand and product undergoes rigorous testing and evaluation before being included in our inventory, ensuring that you receive products of the highest quality.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    What is your approach to environmental responsibility?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">At GreenHKMarket, we are dedicated to making a positive impact on the environment. We prioritize partnering with brands that follow eco-friendly practices, such as using renewable resources, minimizing waste, and reducing carbon emissions. By choosing us, you actively contribute to a greener future and support sustainable initiatives.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    How can I contact your customer support team?
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">We have a friendly and knowledgeable customer support team ready to assist you. You can reach us by email at <a href="mailto:greenhkmarket@gmail.com">greenhkmarket@gmail.com</a> or by calling our toll-free number at <a href="tel:+447388810280">+44 7388 8102 80</a> We strive to provide prompt and helpful assistance to ensure your shopping experience is seamless.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Do you offer any eco-friendly packaging options?
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Yes, we are committed to minimizing our environmental footprint. We strive to use eco-friendly packaging materials, such as recycled and biodegradable materials, whenever possible. We also encourage customers to recycle or reuse packaging materials to further reduce waste. Together, we can make a difference in promoting sustainable packaging practices.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 img-col m-auto">
+            <img src="../assets/images/others/about-faq.png" class="img-fluid" alt="about-faq">
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container-fluid">
+          <div class="row go-to-top-row">
+              <a href="javascript:void(0)" id="goToTop">
+                <div class="col-12 col-md-12 col-lg-12">
+                  Back to top
+                </div>
+               </a>
+          </div>
+
+          <div class="row information-row">
+            <div class="col-12 col-md-3 col-lg-3 company-col">
+              <img src="../assets/images/theme-logo/logo.png" class="img-fluid" alt="GreenHKMarket Logo">
+              <p>Green HK Market is a leading online platform dedicated to serving environmentally-conscious consumers in the UK. With a passion for promoting sustainable living, we strive to offer a diverse range of high-quality organic and sustainable products.</p>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 links-col">
+              <h5>Links</h5>
+              <hr>
+              <ul class="list-group">
+                <li class="list-group-item"><a href="../index.html" class="active">Home</a></li>
+                <li class="list-group-item"><a href="javascript:void(0)">Shop</a></li>
+                <li class="list-group-item"><a href="javascript:void(0)">About</a></li>
+                <li class="list-group-item"><a href="javascript:void(0)">Blog</a></li>
+                <li class="list-group-item"><a href="javascript:void(0)">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 contact-col">
+              <h5>Contact information</h5>
+              <hr>
+              <table class="table">
+                <tr>
+                  <td><p><span><i class="fa-solid fa-map-location"></i></span> Address:</p></td>
+                  <td><Address>Conduit Lane, Oldbury <br> WV16 5BU Shropshire</Address></td>
+                </tr>
+                <tr>
+                  <td><p><span><i class="fa-solid fa-envelope"></i></span> Email:</p></td>
+                  <td><a href="mailto:greenhkmart@gmail.com">greenhkmart@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <td><p><span><i class="fa-solid fa-phone"></i> Phone:</p></td>
+                  <td><a href="tel:+447388810280">+44 7388 810280</a></td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 newsletter-col">
+              <h5>Newsletter</h5>
+              <hr>
+              <div class="row">
+                <p>SIGN UP FOR OUR NEWSLETTER</p>
+                <div class="col-12 col-md-12">
+                  <form action="javascript:void(0)" method="#" autocomplete="off">
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Email address" aria-label="Email addres" aria-describedby="news-letter-input">
+                      <a href="javascript:void(0)" class="btn btn-primary" id="news-letter-input"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>      
+                  </form>
+                </div>
+              </div>
+              
+              <div class="row social-media-row">
+                <div class="col-12 col-md-12">
+                  <ul class="list-group list-group-horizontal">
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-youtube"></i></a></li>
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-twitter"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="bg-light text-light">
+          <div class="row copyright-row justify-content-center">
+            <div class="col-12 col-md-4 col-lg-4 m-auto copyright-col">
+              <p>All rights reserved by GreenHKMarket &copy; <span id="copyright_year"></span></p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 m-auto payment-gateway-col">
+              <img src="../assets/images/others/payment_gateway.png" class="img-fluid" alt="GreenHKMarket Logo">
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 m-auto temrs-policy-col">
+              <ul class="list-group list-group-horizontal m-auto  ">
+                <li class="list-group-item"><a href="javascript:void(0)">Privacy policy</a></li>
+                <li class="list-group-item"><a href="javascript:void(0)">Terms and conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </main>
+  <script src="../assets/javascript/jquery-3.7.0.min.js"></script>
+  <script src="../assets/javascript/bootstrap/bootstrap.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+  <script src="../assets/javascript/main.js"></script>
+</body>
+
+</html>
