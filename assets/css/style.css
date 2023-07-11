@@ -1401,7 +1401,85 @@ a {
     color: var(--secondary-color);
   }
 
-
+  .checkout-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .checkout-container form{ 
+    border: 2px solid #f3f4f6;
+    padding: 15px;
+    width: 100%;
+  }
+  .checkout-container form:hover{ 
+    border: 2px solid var(--primary-color);
+  }
+  .checkout-container h3{ 
+    padding: 5px;
+    color: var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+  }
+  .checkout-container h5{ 
+    color: var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  .checkout-container form .col-12{ 
+    width: 100%;
+    margin-top: 5px;
+  }
+  .checkout-container form input, .checkout-container form select{
+    border-radius: 0px;
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #f3f4f6;
+  }
+  .checkout-container form input:focus, .checkout-container form select:focus{
+    box-shadow: none;
+    border: 2px solid var(--primary-color);
+  }
+  .cart-total-col{
+    margin-top: 30px;
+  }
+  .checkout-container .total-content{
+    border: 2px solid var(--primary-color);
+  }
+  .checkout-container .list-group{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+  .checkout-container .list-group .list-group-item{
+    border: none;
+  }
+  .checkout-container .list-group .list-group-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 300;
+    border-radius: 0px;
+    margin-top: 10px;
+  }
+  .checkout-container .list-group .product-qty{
+    font-weight: bold;
+  }
+  .checkout-container #orderTotal{
+    background-color: #4caf50;
+    font-size: 1.2em;
+    color: var(--secondary-color);
+  }
+  .checkout-container .form-button{
+    margin-top: 10px;
+  }
+  .checkout-container .form-button a{
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    font-family: 'Belanosima', sans-serif;
+    min-width: 100px;
+    font-size: 1em;
+  }
 
 
 
@@ -2932,7 +3010,80 @@ a {
 
 
 
-
+  .checkout-container{
+    padding: 50px 100px 50px 100px;
+  }
+  .checkout-container form{ 
+    border: 2px solid #f3f4f6;
+    padding: 20px;
+    width: 100%;
+  }
+  .checkout-container form:hover{ 
+    border: 2px solid var(--primary-color);
+  }
+  .checkout-container h3{ 
+    padding: 5px;
+    color: var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+  }
+  .checkout-container h5{ 
+    color: var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  .checkout-container form .col-12{ 
+    width: 50%;
+  }
+  .checkout-container form input, .checkout-container form select{
+    border-radius: 0px;
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #f3f4f6;
+  }
+  .checkout-container form input:focus, .checkout-container form select:focus{
+    box-shadow: none;
+    border: 2px solid var(--primary-color);
+  }
+  .checkout-container .total-content{
+    border: 2px solid var(--primary-color);
+  }
+  .checkout-container .list-group{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+  .checkout-container .list-group .list-group-item{
+    border: none;
+  }
+  .checkout-container .list-group .list-group-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Belanosima', sans-serif;
+    font-weight: 300;
+    border-radius: 0px;
+    margin-top: 10px;
+  }
+  .checkout-container .list-group .product-qty{
+    font-weight: bold;
+  }
+  .checkout-container #orderTotal{
+    background-color: #4caf50;
+    font-size: 1.2em;
+    color: var(--secondary-color);
+  }
+  .checkout-container .form-button{
+    margin-top: 10px;
+  }
+  .checkout-container .form-button a{
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    font-family: 'Belanosima', sans-serif;
+    min-width: 120px;
+    font-size: 1.1em;
+  }
 
 
 
