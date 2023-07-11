@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <title>GreenHKMarket - Organic and Sustainable Products in the UK</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GreenHKMarket - Organic and Sustainable Products in the UK">
+  <meta name="keywords" content="greenHKMarket, organic products, sustainable products, UK, eco-friendly, green lifestyle">
+  <link rel="icon" href="../assets/images/theme-logo/favicon/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto+Slab&family=Satisfy&family=Ubuntu&family=Work+Sans&display=swap" rel="stylesheet">
+  <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css" rel="stylesheet">
+  <link href="../assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+</head>
+<body>
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader">
+      <img src="../assets/images/theme-logo/logo.png" alt="GreenHKMarket Logo">
+      <div class="loader-text">Loading...</div>
+    </div>
+  </div>
+  <main>
+    <div class="page-wrapper">
+      <header>
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../assets/images/theme-logo/logo.png" class="img-fluid" alt="GreenHKMarket Logo">
+            </a>
+            <div class="navbar-toggler" onclick="navbarToggle(this)" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="javascript:void(0)">Organic Food and Groceries</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Eco-Friendly Home and Kitchen</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Natural Beauty and Personal Care</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Sustainable Fashion</a></li>
+                    <li><a class="dropdown-item" href="javascript:void(0)">Health and Wellness</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-page.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="blog-page.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact-page.html">Contact us</a>
+                </li>
+              </ul>
+              <form class="d-flex me-auto mb-2 mb-lg-0" role="search">
+                <div class="input-group">
+                  <select class="form-select" aria-label="Category" id="category-select" name="category-select">
+                    <option value="all" class="select-item">All</option>
+                    <option value="Food and Groceries">Food and Groceries</option>
+                    <option value="Home and Kitchen">Home and Kitchen</option>
+                    <option value="Beauty Care">Beauty Care</option>
+                    <option value="Sustainable Fashion">Sustainable Fashion</option>
+                    <option value="Health and Wellness">Health and Wellness</option>
+                  </select>
+                  <input type="text" class="form-control search-input" aria-label="Text input with category select" placeholder="Search products">
+                  <a href="javascript:void(0)" class="btn btn-outline-secondary" type="button" id="search-button"><i class="fa fa-search"></i></a>
+                </div>                
+              </form>
+              <div class="d-flex icon-container mb-2 mb-lg-0 justify-content-end align-items-center">
+                <a href="register.html"><i class="fa fa-user"></i> Account</a>
+                <a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Heading container -->
+      <div class="container-fluid heading-container">
+        <div class="image-overlay">
+          <img src="../assets/images/others/heading-image.png" class="img-fluid" alt="heading-img">
+        </div>
+        <div class="row justify-content-around align-items-center align-self-center heading-row-content">
+            <div class="col-12 col-md-6 col-lg-6 heading-page-title">
+                <h5>WELCOME TO GREENHKMARKET</h5>
+                <h1>Blogs</h1>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 heading-beadcrumb">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb text-light">
+                      <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">Blogs</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+      </div>
+
+      <div class="container-fluid blog-container">
+        <div class="row">
+            <div class="col-12 col-md-7 col-lg-7">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12">
+                        <div class="blog-list-section">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img src="../assets/images/banner-images/organic-beauty-product.png" class="img-fluid blog-img" alt="blog-img">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="blog-title">
+                                                <h2><a href="javascript:void(0)">Lorem ipsum dolor sit amet, consecte cing elit, sed do eiusmod tempor.</a></h2>
+                                            </div>
+                                            <div class="blog-icon-items d-flex">
+                                                <div class="comments-text d-flex">
+                                                    <i class="fa fa-comments" aria-hidden="true"></i> <h5>17 Comments</h5>
+                                                </div>
+                                                <div class="date-text d-flex">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i> <h5>June 22, 2020</h5>
+                                                </div>
+                                            </div>
+                                            <div class="blog-content">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                                </p>
+                                            </div>
+                                            <div class="blog-read-more">
+                                                <a href="javascript:void(0)"><i class="fa fa-arrow-right"></i> Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img src="../assets/images/banner-images/organic-beauty-product.png" class="img-fluid blog-img" alt="blog-img">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="blog-title">
+                                                <h2><a href="javascript:void(0)">Lorem ipsum dolor sit amet, consecte cing elit, sed do eiusmod tempor.</a></h2>
+                                            </div>
+                                            <div class="blog-icon-items d-flex">
+                                                <div class="comments-text d-flex">
+                                                    <i class="fa fa-comments" aria-hidden="true"></i> <h5>17 Comments</h5>
+                                                </div>
+                                                <div class="date-text d-flex">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i> <h5>June 22, 2020</h5>
+                                                </div>
+                                            </div>
+                                            <div class="blog-content">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                                </p>
+                                            </div>
+                                            <div class="blog-read-more">
+                                                <a href="javascript:void(0)"><i class="fa fa-arrow-right"></i> Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img src="../assets/images/banner-images/organic-beauty-product.png" class="img-fluid blog-img" alt="blog-img">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="blog-title">
+                                                <h2><a href="javascript:void(0)">Lorem ipsum dolor sit amet, consecte cing elit, sed do eiusmod tempor.</a></h2>
+                                            </div>
+                                            <div class="blog-icon-items d-flex">
+                                                <div class="comments-text d-flex">
+                                                    <i class="fa fa-comments" aria-hidden="true"></i> <h5>17 Comments</h5>
+                                                </div>
+                                                <div class="date-text d-flex">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i> <h5>June 22, 2020</h5>
+                                                </div>
+                                            </div>
+                                            <div class="blog-content">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                                </p>
+                                            </div>
+                                            <div class="blog-read-more">
+                                                <a href="javascript:void(0)"><i class="fa fa-arrow-right"></i> Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img src="../assets/images/banner-images/organic-beauty-product.png" class="img-fluid blog-img" alt="blog-img">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="blog-title">
+                                                <h2><a href="javascript:void(0)">Lorem ipsum dolor sit amet, consecte cing elit, sed do eiusmod tempor.</a></h2>
+                                            </div>
+                                            <div class="blog-icon-items d-flex">
+                                                <div class="comments-text d-flex">
+                                                    <i class="fa fa-comments" aria-hidden="true"></i> <h5>17 Comments</h5>
+                                                </div>
+                                                <div class="date-text d-flex">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i> <h5>June 22, 2020</h5>
+                                                </div>
+                                            </div>
+                                            <div class="blog-content">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                                </p>
+                                            </div>
+                                            <div class="blog-read-more">
+                                                <a href="javascript:void(0)"><i class="fa fa-arrow-right"></i> Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <img src="../assets/images/banner-images/organic-beauty-product.png" class="img-fluid blog-img" alt="blog-img">
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="blog-title">
+                                                <h2><a href="javascript:void(0)">Lorem ipsum dolor sit amet, consecte cing elit, sed do eiusmod tempor.</a></h2>
+                                            </div>
+                                            <div class="blog-icon-items d-flex">
+                                                <div class="comments-text d-flex">
+                                                    <i class="fa fa-comments" aria-hidden="true"></i> <h5>17 Comments</h5>
+                                                </div>
+                                                <div class="date-text d-flex">
+                                                    <i class="fa fa-calendar" aria-hidden="true"></i> <h5>June 22, 2020</h5>
+                                                </div>
+                                            </div>
+                                            <div class="blog-content">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                                </p>
+                                            </div>
+                                            <div class="blog-read-more">
+                                                <a href="javascript:void(0)"><i class="fa fa-arrow-right"></i> Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pagination-row">
+                    <div class="col-12 col-md-12 col-lg-12 d-flex justify-content-around">
+                        <nav aria-label="blog navigation">
+                            <ul class="pagination m-auto">
+                                <li class="page-item">
+                                    <a class="page-link" href="javascript:void(0)" aria-label="Previous">
+                                      <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                              <li class="page-item"><a class="page-link active" href="javascript:void(0)">1</a></li>
+                              <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                              <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="javascript:void(0)" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 col-lg-3 social-media-col">
+                <div class="social-media-item">
+                    <h4><i class="fa fa-arrow-right"></i> &nbsp;Never Miss News</h4>
+                    <ul class="list-group list-group-horizontal">
+                        <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-facebook"></i></a></li>
+                        <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-youtube"></i></a></li>
+                        <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container-fluid">
+          <div class="row go-to-top-row">
+              <a href="javascript:void(0)" id="goToTop">
+                <div class="col-12 col-md-12 col-lg-12">
+                  Back to top
+                </div>
+               </a>
+          </div>
+
+          <div class="row information-row">
+            <div class="col-12 col-md-3 col-lg-3 company-col">
+              <img src="../assets/images/theme-logo/logo.png" class="img-fluid" alt="GreenHKMarket Logo">
+              <p>Green HK Market is a leading online platform dedicated to serving environmentally-conscious consumers in the UK. With a passion for promoting sustainable living, we strive to offer a diverse range of high-quality organic and sustainable products.</p>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 links-col">
+              <h5>Links</h5>
+              <hr>
+              <ul class="list-group">
+                <li class="list-group-item"><a href="../index.html" class="active">Home</a></li>
+                <li class="list-group-item"><a href="javascript:void(0)">Shop</a></li>
+                <li class="list-group-item"><a href="about-page.html">About</a></li>
+                <li class="list-group-item"><a href="blog-page.html">Blog</a></li>
+                <li class="list-group-item"><a href="contact-page.html">Contact us</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 contact-col">
+              <h5>Contact information</h5>
+              <hr>
+              <table class="table">
+                <tr>
+                  <td><p><span><i class="fa-solid fa-map-location"></i></span> Address:</p></td>
+                  <td><Address>Conduit Lane, Oldbury <br> WV16 5BU Shropshire</Address></td>
+                </tr>
+                <tr>
+                  <td><p><span><i class="fa-solid fa-envelope"></i></span> Email:</p></td>
+                  <td><a href="mailto:greenhkmart@gmail.com">greenhkmart@gmail.com</a></td>
+                </tr>
+                <tr>
+                  <td><p><span><i class="fa-solid fa-phone"></i> Phone:</p></td>
+                  <td><a href="tel:+447388810280">+44 7388 810280</a></td>
+                </tr>
+              </table>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 newsletter-col">
+              <h5>Newsletter</h5>
+              <hr>
+              <div class="row">
+                <p>SIGN UP FOR OUR NEWSLETTER</p>
+                <div class="col-12 col-md-12">
+                  <form action="javascript:void(0)" method="#" autocomplete="off">
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control" placeholder="Email address" aria-label="Email addres" aria-describedby="news-letter-input">
+                      <a href="javascript:void(0)" class="btn btn-primary" id="news-letter-input"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                      </a>
+                    </div>      
+                  </form>
+                </div>
+              </div>
+              
+              <div class="row social-media-row">
+                <div class="col-12 col-md-12">
+                  <ul class="list-group list-group-horizontal">
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-youtube"></i></a></li>
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-twitter"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="bg-light text-light">
+          <div class="row copyright-row justify-content-center">
+            <div class="col-12 col-md-4 col-lg-4 m-auto copyright-col">
+              <p>All rights reserved by GreenHKMarket &copy; <span id="copyright_year"></span></p>
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 m-auto payment-gateway-col">
+              <img src="../assets/images/others/payment_gateway.png" class="img-fluid" alt="GreenHKMarket Logo">
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 m-auto temrs-policy-col">
+              <ul class="list-group list-group-horizontal m-auto  ">
+                <li class="list-group-item"><a href="javascript:void(0)">Privacy policy</a></li>
+                <li class="list-group-item"><a href="javascript:void(0)">Terms and conditions</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </main>
+  <script src="../assets/javascript/jquery-3.7.0.min.js"></script>
+  <script src="../assets/javascript/bootstrap/bootstrap.bundle.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+  <script src="../assets/javascript/main.js"></script>
+</body>
+
+</html>

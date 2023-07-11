@@ -1155,7 +1155,160 @@ a {
     min-height: 250px;
   }
 
-
+  .blog-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .blog-container .col-md-7 .list-group{
+    list-style-type: none;
+    background-color: transparent;
+  }
+  .blog-container .list-group li{
+    background-color: transparent;
+     border: 2px solid #f3f4f6;
+     padding: 0px;
+     margin-top: 10px;
+     border-radius: 0px;
+  }
+  .blog-container .list-group .card{
+    background-color: transparent;
+    border: none;
+    transition: 0.5s ease;
+  }
+  .blog-container .list-group .card:hover img{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+  }
+  .blog-container .card .card-header{
+    background-color: transparent;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .blog-container .card .blog-img{
+    object-fit: contain;
+    transition: 0.5s ease;
+    filter: grayscale(50%);
+  }
+  .blog-container .card .card-body{
+    padding: 10px;
+  }
+  .blog-container .card .blog-title a{
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+    color: var(--complementary-color);
+    transition: 0.5s ease;
+    font-size: 0.9em;
+  }
+  .blog-container .card .blog-title a:hover{
+    transition: 0.5s ease;
+    color:  var(--primary-color);
+  }
+  .blog-container .card .blog-icon-items{
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    column-gap: 10px;
+  }
+  .blog-container .card .comments-text i,.blog-container .card .date-text i{
+    color: var(--primary-color);
+    font-size: 1.1em;
+  }
+  .blog-container .card .comments-text h5,.blog-container .card .date-text h5{
+    color: var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 0.8em;
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  .blog-container .card .blog-content p{
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .blog-container .card .blog-read-more{
+    float: right;
+  }
+  .blog-container .card .blog-read-more a{
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+    color: var(--complementary-color);
+    transition: 0.4s ease;
+  }
+  .blog-container .card .blog-read-more a:hover{
+    transition: 0.4s ease;
+    color: var(--primary-color);
+  }
+  .blog-container .pagination-row{
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .blog-container .pagination-row .pagination li{
+      border: 2px solid #f3f4f6;
+      border-radius: 0px;
+      min-width: 40px;
+      margin-left: 10px;
+      padding: 0px;
+  }
+  .blog-container .pagination-row .pagination a{
+    font-family: 'Belanosima', sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 1.2em;
+    color: var(--complementary-color);
+    border-radius: 0px;
+  }
+  .blog-container .pagination-row .pagination a:hover{  
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .blog-container .pagination-row .pagination .active{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .blog-container .social-media-col{
+    margin-top: 10px;
+    border: 2px solid #f3f4f6;
+    display: flex;
+    height: 200px;
+  }
+  .blog-container .social-media-col .social-media-item{
+    width: 100%;
+    padding: 20px;
+  }
+  .blog-container .social-media-col .social-media-item h4{
+    color: var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+  }
+  .blog-container .social-media-col .list-group{
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0px;
+  }
+  .blog-container .social-media-col .list-group li{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin-left: 5px;
+    padding: 0px;
+  }
+  .blog-container .social-media-col .list-group li:hover, .blog-container .social-media-col .list-group li:hover a{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .blog-container .social-media-col .list-group a{
+    width: 100%;
+    height: 100%;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: none;
+    color: #212121;
+    padding: 0px;
+  }
+  .blog-container .social-media-col .list-group a:hover{
+    color: var(--secondary-color);
+  }
 
 
 
@@ -1446,6 +1599,7 @@ a {
   }
   .navbar .dropdown-menu {
     border-radius: 0px;
+    z-index: 11111;
   }
   .navbar .dropdown-menu .dropdown-item:hover {
     background-color: var(--primary-color);
@@ -2442,14 +2596,158 @@ a {
     padding: 0px;
     min-height: 500px;
   }
-
-
-
-
-
-
-
-
+  .blog-container{
+    padding: 50px 100px 50px 150px;
+  }
+  .blog-container .col-md-7 .list-group{
+    list-style-type: none;
+    background-color: transparent;
+  }
+  .blog-container .list-group li{
+    background-color: transparent;
+     border: 2px solid #f3f4f6;
+     padding: 0px;
+     margin-top: 10px;
+     border-radius: 0px;
+  }
+  .blog-container .list-group .card{
+    background-color: transparent;
+    border: none;
+    transition: 0.5s ease;
+  }
+  .blog-container .list-group .card:hover img{
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+  }
+  .blog-container .card .card-header{
+    background-color: transparent;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .blog-container .card .blog-img{
+    object-fit: contain;
+    transition: 0.5s ease;
+    filter: grayscale(50%);
+  }
+  .blog-container .card .card-body{
+    padding: 20px;
+  }
+  .blog-container .card .blog-title a{
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+    color: var(--complementary-color);
+    transition: 0.5s ease;
+  }
+  .blog-container .card .blog-title a:hover{
+    transition: 0.5s ease;
+    color:  var(--primary-color);
+  }
+  .blog-container .card .blog-icon-items{
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    column-gap: 10px;
+  }
+  .blog-container .card .comments-text i,.blog-container .card .date-text i{
+    color: var(--primary-color);
+    font-size: 1.2em;
+  }
+  .blog-container .card .comments-text h5,.blog-container .card .date-text h5{
+    color: var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+    font-size: 0.9em;
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  .blog-container .card .blog-content p{
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .blog-container .card .blog-read-more{
+    float: right;
+  }
+  .blog-container .card .blog-read-more a{
+    text-decoration: none;
+    font-family: 'Belanosima', sans-serif;
+    color: var(--complementary-color);
+    transition: 0.4s ease;
+  }
+  .blog-container .card .blog-read-more a:hover{
+    transition: 0.4s ease;
+    color: var(--primary-color);
+  }
+  .blog-container .pagination-row{
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .blog-container .pagination-row .pagination li{
+      border: 2px solid #f3f4f6;
+      border-radius: 0px;
+      min-width: 50px;
+      margin-left: 10px;
+      padding: 0px;
+  }
+  .blog-container .pagination-row .pagination a{
+    font-family: 'Belanosima', sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 1.2em;
+    color: var(--complementary-color);
+    border-radius: 0px;
+  }
+  .blog-container .pagination-row .pagination a:hover{  
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .blog-container .pagination-row .pagination .active{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .blog-container .social-media-col{
+    margin-top: 10px;
+    border: 2px solid #f3f4f6;
+    display: flex;
+    height: 200px;
+  }
+  .blog-container .social-media-col .social-media-item{
+    width: 100%;
+    padding: 20px;
+  }
+  .blog-container .social-media-col .social-media-item h4{
+    color: var(--complementary-color);
+    font-family: 'Belanosima', sans-serif;
+  }
+  .blog-container .social-media-col .list-group{
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0px;
+  }
+  .blog-container .social-media-col .list-group li{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin-left: 5px;
+    padding: 0px;
+  }
+  .blog-container .social-media-col .list-group li:hover, .blog-container .social-media-col .list-group li:hover a{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .blog-container .social-media-col .list-group a{
+    width: 100%;
+    height: 100%;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: none;
+    color: #212121;
+    padding: 0px;
+  }
+  .blog-container .social-media-col .list-group a:hover{
+    color: var(--secondary-color);
+  }
 
 
 
