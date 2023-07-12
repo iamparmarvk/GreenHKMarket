@@ -51,11 +51,11 @@
                     Shop
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="javascript:void(0)">Organic Food and Groceries</a></li>
-                    <li><a class="dropdown-item" href="javascript:void(0)">Eco-Friendly Home and Kitchen</a></li>
-                    <li><a class="dropdown-item" href="javascript:void(0)">Natural Beauty and Personal Care</a></li>
-                    <li><a class="dropdown-item" href="javascript:void(0)">Sustainable Fashion</a></li>
-                    <li><a class="dropdown-item" href="javascript:void(0)">Health and Wellness</a></li>
+                    <li><a class="dropdown-item" href="shop-page.html">Organic Food and Groceries</a></li>
+                    <li><a class="dropdown-item" href="shop-page.html">Eco-Friendly Home and Kitchen</a></li>
+                    <li><a class="dropdown-item" href="shop-page.html">Natural Beauty and Personal Care</a></li>
+                    <li><a class="dropdown-item" href="shop-page.html">Sustainable Fashion</a></li>
+                    <li><a class="dropdown-item" href="shop-page.html">Health and Wellness</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -84,7 +84,7 @@
               </form>
               <div class="d-flex icon-container mb-2 mb-lg-0 justify-content-end align-items-center">
                 <a href="register.html"><i class="fa fa-user"></i> Account</a>
-                <a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a>
+                <a href="cart-page.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</a>
               </div>
             </div>
           </div>
@@ -121,14 +121,14 @@
                         <h5>Personal Information</h5>
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="firstNameInput" name="firstNameInput" placeholder="First name.">
-                                <label for="firstNameInput">First name</label>
+                                <input type="text" class="form-control" id="firstNameInput" name="firstNameInput" placeholder="First name*">
+                                <label for="firstNameInput">First name<span class="text-danger">*</span></label>
                             </div>
                         </div>
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="lastNameInput" name="lastNameInput" placeholder="Last name.">
-                                <label for="lastNameInput">Last name</label>
+                                <input type="text" class="form-control" id="lastNameInput" name="lastNameInput" placeholder="Last name*">
+                                <label for="lastNameInput">Last name<span class="text-danger">*</span></label>
                             </div>
                         </div>
                     </div>
@@ -136,14 +136,14 @@
                     <div class="row mb-3">
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="form-floating">
-                                <input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="Email address">
-                                <label for="emailInput">Email address</label>
+                                <input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="Email address*">
+                                <label for="emailInput">Email address<span class="text-danger">*</span></label>
                             </div>
                         </div>
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="form-floating">
-                                <input type="tel" class="form-control" id="phoneInput" name="phoneInput" placeholder="Phone number.">
-                                <label for="phoneInput">Phone number</label>
+                                <input type="tel" class="form-control" id="phoneInput" name="phoneInput" placeholder="Phone number*">
+                                <label for="phoneInput">Phone number<span class="text-danger">*</span></label>
                             </div>
                         </div>
                     </div>
@@ -157,14 +157,14 @@
                                   <option value="uk">United Kingdom</option>
                                   <option value="usa">USA</option>
                                 </select>
-                                <label for="countrySelect">Country</label>
+                                <label for="countrySelect">Country<span class="text-danger">*</span></label>
                             </div>
                         </div>
                         <div class="col-12 col-md-4 col-lg-4">
                             <h5>State</h5>
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="StateInput" name="StateInput" placeholder="State">
-                                <label for="StateInput">State</label>
+                                <input type="text" class="form-control" id="StateInput" name="StateInput" placeholder="State*">
+                                <label for="StateInput">State<span class="text-danger">*</span></label>
                             </div>
                         </div>
                     </div>
@@ -173,8 +173,8 @@
                         <h5>Address</h5>
                         <div class="col-12 col-md-4 col-lg-4">
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="AddressInput" name="AddressInput" placeholder="House number and street name">
-                                <label for="AddressInput">House number and street name</label>
+                                <input type="text" class="form-control" id="AddressInput" name="AddressInput" placeholder="House number and street name*">
+                                <label for="AddressInput">House number and street name<span class="text-danger">*</span></label>
                             </div>
                         </div>
                         <div class="col-12 col-md-4 col-lg-4">
@@ -197,8 +197,8 @@
                         <div class="col-12 col-md-4 col-lg-4">
                             <h5>Zip</h5>
                             <div class="form-floating">
-                                <input type="text" class="form-control" id="ZipInput" name="ZipInput" placeholder="Zip">
-                                <label for="ZipInput">Zip</label>
+                                <input type="text" class="form-control" id="ZipInput" name="ZipInput" placeholder="Zip*">
+                                <label for="ZipInput">Zip<span class="text-danger">*</span></label>
                             </div>
                         </div>
                     </div>
@@ -244,7 +244,7 @@
                     </ul>
                 </div>
                 <div class="form-button">
-                    <a href="javascript:void(0)" class="btn btn-primary">Place order</a>
+                    <a href="javascript:void(0)" class="btn btn-primary" id="placeOrderBtn">Place order</a>
                 </div>
             </div>
         </div>

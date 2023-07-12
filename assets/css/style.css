@@ -2,7 +2,7 @@
   --primary-color: #4caf50;
   --secondary-color: #ffffff;
   --accent-color: #ffc107;
-  --complementary-color: #212121;
+  --complementary-color: #2C3333;
   --link-desktop-size: 1.1em;
   --link-mobile-size: 1em;
 }
@@ -3737,4 +3737,5 @@ a {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  
 }

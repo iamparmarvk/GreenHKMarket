@@ -32,26 +32,34 @@ function togglePasswordVisibility() {
         showPasswordIcon.setAttribute('class', 'fa fa-eye')
     }
 }
-function toggleConfirmPasswordVisibility(){
+function toggleConfirmPasswordVisibility() {
     var confirmPasswordInput = document.getElementById('confirmPasswordInput');
     var showConfirmPassIcon = document.getElementById('showConfirmPassIcon')
 
-    if(confirmPasswordInput.type === 'password'){
+    if (confirmPasswordInput.type === 'password') {
         confirmPasswordInput.type = 'text';
-        showConfirmPassIcon.removeAttribute('class','fa fa-eye')
-        showConfirmPassIcon.setAttribute('class','fa fa-eye-slash')
-    }else{
+        showConfirmPassIcon.removeAttribute('class', 'fa fa-eye')
+        showConfirmPassIcon.setAttribute('class', 'fa fa-eye-slash')
+    } else {
         confirmPasswordInput.type = 'password';
-        showConfirmPassIcon.removeAttribute('class','fa fa-eye-slash')
-        showConfirmPassIcon.setAttribute('class','fa fa-eye')
+        showConfirmPassIcon.removeAttribute('class', 'fa fa-eye-slash')
+        showConfirmPassIcon.setAttribute('class', 'fa fa-eye')
     }
 }
 
-$('.gallery-product-img').click(function(){
+$('.gallery-product-img').click(function () {
     let currentImageUrl = $(this).attr('src');
-    $('#main-image').css('opacity',0);
+    $('#main-image').css('opacity', 0);
     setTimeout(() => {
-        $('#main-image').attr('src',currentImageUrl);
-        $('#main-image').css('opacity',1);
+        $('#main-image').attr('src', currentImageUrl);
+        $('#main-image').css('opacity', 1);
     }, 500);
+});
+
+$('#placeOrderBtn').click(function () {
+Swal.fire(
+        'Thank you!',
+        'Your order has been placed',
+        'success'
+    )
 });
