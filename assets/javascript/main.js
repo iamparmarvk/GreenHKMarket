@@ -46,3 +46,12 @@ function toggleConfirmPasswordVisibility(){
         showConfirmPassIcon.setAttribute('class','fa fa-eye')
     }
 }
+
+$('.gallery-product-img').click(function(){
+    let currentImageUrl = $(this).attr('src');
+    $('#main-image').css('opacity',0);
+    setTimeout(() => {
+        $('#main-image').attr('src',currentImageUrl);
+        $('#main-image').css('opacity',1);
+    }, 500);
+});
