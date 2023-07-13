@@ -2,7 +2,7 @@
   --primary-color: #4caf50;
   --secondary-color: #ffffff;
   --accent-color: #ffc107;
-  --complementary-color: #2C3333;
+  --complementary-color: #2c3333;
   --link-desktop-size: 1.1em;
   --link-mobile-size: 1em;
 }
@@ -68,8 +68,8 @@ a {
   align-items: center;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/*  Small Devices (e.g., smartphones): */
+@media only screen and (max-width: 768px) {
   #loader img {
     width: 150px;
     border-radius: 50%;
@@ -181,12 +181,10 @@ a {
     height: 50vh;
   }
   #carouselExampleCaptions .carousel-inner img {
-    width: auto;
-    height: 50vh;
-    object-fit: cover;
+    min-height: 50vh;
   }
   #carouselExampleCaptions .carousel-caption {
-    top: 37%;
+    top: 45%;
     left: 30%;
     transform: translate(-50%, -50%);
     color: var(--complementary-color);
@@ -1354,10 +1352,10 @@ a {
     color: var(--complementary-color);
     margin-left: 5px;
   }
-  .shop-container .second-col{
+  .shop-container .second-col {
     width: 95%;
     margin: auto;
-    margin-top:30px ;
+    margin-top: 30px;
   }
   .shop-container .second-col .list-group {
     margin-top: 30px;
@@ -1401,366 +1399,334 @@ a {
     color: var(--secondary-color);
   }
 
-  .checkout-container{
+  .checkout-container {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .checkout-container form{ 
+  .checkout-container form {
     border: 2px solid #f3f4f6;
     padding: 15px;
     width: 100%;
   }
-  .checkout-container form:hover{ 
+  .checkout-container form:hover {
     border: 2px solid var(--primary-color);
   }
-  .checkout-container h3{ 
+  .checkout-container h3 {
     padding: 5px;
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .checkout-container h5{ 
+  .checkout-container h5 {
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 0.9em;
     margin-bottom: 10px;
   }
-  .checkout-container form .col-12{ 
+  .checkout-container form .col-12 {
     width: 100%;
     margin-top: 5px;
   }
-  .checkout-container form input, .checkout-container form select{
+  .checkout-container form input,
+  .checkout-container form select {
     border-radius: 0px;
     box-shadow: none;
     outline: none;
     border: 2px solid #f3f4f6;
   }
-  .checkout-container form input:focus, .checkout-container form select:focus{
+  .checkout-container form input:focus,
+  .checkout-container form select:focus {
     box-shadow: none;
     border: 2px solid var(--primary-color);
   }
-  .cart-total-col{
+  .cart-total-col {
     margin-top: 30px;
   }
-  .checkout-container .total-content{
+  .checkout-container .total-content {
     border: 2px solid var(--primary-color);
   }
-  .checkout-container .list-group{
+  .checkout-container .list-group {
     display: inline;
     justify-content: center;
     align-items: center;
   }
-  .checkout-container .list-group .list-group-item{
+  .checkout-container .list-group .list-group-item {
     border: none;
   }
-  .checkout-container .list-group .list-group-item{
+  .checkout-container .list-group .list-group-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-weight: 300;
     border-radius: 0px;
     margin-top: 10px;
   }
-  .checkout-container .list-group .product-qty{
+  .checkout-container .list-group .product-qty {
     font-weight: bold;
   }
-  .checkout-container #orderTotal{
+  .checkout-container #orderTotal {
     background-color: #4caf50;
     font-size: 1.2em;
     color: var(--secondary-color);
   }
-  .checkout-container .form-button{
+  .checkout-container .form-button {
     margin-top: 10px;
   }
-  .checkout-container .form-button a{
+  .checkout-container .form-button a {
     border-radius: 0px;
     border: none;
     outline: none;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     min-width: 100px;
     font-size: 1em;
   }
 
-
-
-
-
-
-
-
-
-
-  .product-page-container{
+  .product-page-container {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .product-page-container .image-col .row{
+  .product-page-container .image-col .row {
     width: 100%;
     justify-content: center;
     align-items: center;
   }
-  .product-page-container .image-col .row .col-12{
+  .product-page-container .image-col .row .col-12 {
     width: 100%;
   }
-  .product-page-container .image-col .main-img-container{
+  .product-page-container .image-col .main-img-container {
     overflow: hidden;
     text-align: center;
     width: 100%;
     margin-left: 15px;
   }
-  .product-page-container .image-col .main-img-container img{
+  .product-page-container .image-col .main-img-container img {
     width: 80%;
     object-fit: cover;
-    border: 2px solid #eeeeee; 
+    border: 2px solid #eeeeee;
   }
-  .product-page-container .img-gallery{
+  .product-page-container .img-gallery {
     margin: auto;
     margin-top: 10px;
   }
-  .product-page-container .img-gallery .col-4{
+  .product-page-container .img-gallery .col-4 {
     border: 2px solid #eeeeee;
     width: 100px;
     padding: 10px;
   }
-  .product-page-container .img-gallery img{
+  .product-page-container .img-gallery img {
     width: 100%;
     object-fit: fill;
     cursor: pointer;
   }
-  #main-image{
+  #main-image {
     transition: opacity 0.5s ease;
   }
 
-  .product-page-container .product-info-col{
+  .product-page-container .product-info-col {
     padding: 10px;
   }
-  .product-page-container .product-info-col .category-name a{
+  .product-page-container .product-info-col .category-name a {
     color: var(--primary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     text-decoration: none;
     transition: 0.4s ease;
     font-size: 0.8em;
   }
-  .product-page-container .product-info-col .category-name a:hover{
+  .product-page-container .product-info-col .category-name a:hover {
     transition: 0.4s ease;
     color: var(--accent-color);
   }
-  .product-page-container .product-info-col .product-title h3{
+  .product-page-container .product-info-col .product-title h3 {
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 23px;
     margin-top: 10px;
     width: 90%;
   }
-  .product-page-container .product-info-col .product-price{
+  .product-page-container .product-info-col .product-price {
     display: flex;
     column-gap: 10px;
     align-items: center;
     margin-top: 20px;
     font-size: 0.9em;
   }
-  .product-page-container .product-info-col .product-price h5{
+  .product-page-container .product-info-col .product-price h5 {
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .product-page-container .product-info-col .product-price .previous-price{
+  .product-page-container .product-info-col .product-price .previous-price {
     text-decoration: line-through;
     font-size: 0.9em;
     opacity: 0.9;
   }
-  .product-page-container .product-info-col .rating-item{
-      display: flex;
-      column-gap: 10px;
-      width: 100%;
+  .product-page-container .product-info-col .rating-item {
+    display: flex;
+    column-gap: 10px;
+    width: 100%;
   }
-  .product-page-container .rating-count ul{
+  .product-page-container .rating-count ul {
     list-style-type: none;
     padding: 0px;
   }
-  .product-page-container .rating-count ul li{
+  .product-page-container .rating-count ul li {
     display: inline;
   }
-  .product-page-container .rating-count ul i{
+  .product-page-container .rating-count ul i {
     color: orange;
     font-size: 0.6em;
   }
-  .product-page-container .rating-item .add-wishlist i{
+  .product-page-container .rating-item .add-wishlist i {
     font-size: 0.8em;
   }
-  .product-page-container .rating-item .add-wishlist a{
+  .product-page-container .rating-item .add-wishlist a {
     text-decoration: none;
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     transition: 0.4s ease;
-
   }
-  .product-page-container .rating-item .add-wishlist a:hover{
+  .product-page-container .rating-item .add-wishlist a:hover {
     color: var(--primary-color);
     transition: 0.4s ease;
   }
-  .product-page-container .action-button{
+  .product-page-container .action-button {
     display: flex;
     column-gap: 10px;
     margin-bottom: 20px;
     align-items: center;
   }
-  .product-page-container .action-button #productQty{
+  .product-page-container .action-button #productQty {
     border-radius: 0px;
     border: 2px solid #eeeeee;
   }
-  .product-page-container .action-button #productQty:focus{
+  .product-page-container .action-button #productQty:focus {
     box-shadow: none;
     border: 2px solid var(--primary-color);
   }
-  .product-page-container .action-button #addToCartBtn{
+  .product-page-container .action-button #addToCartBtn {
     border-radius: 0px;
     outline: none;
     border: none;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     text-transform: uppercase;
     padding: 9px;
     font-size: 0.8em;
   }
-  .product-page-container .product-description p{
+  .product-page-container .product-description p {
     text-align: justify;
   }
-  .product-page-container .product-description h6{
+  .product-page-container .product-description h6 {
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
 
-
-
-
-
-
-
-  .cart-container{
+  .cart-container {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .cart-container .cart-table-col{
-    font-family: 'Belanosima', sans-serif;
+  .cart-container .cart-table-col {
+    font-family: "Belanosima", sans-serif;
     padding: 3px;
   }
-  .cart-container table{
+  .cart-container table {
     width: 100%;
     padding: 0px;
   }
-  .cart-container table thead th{
-    background-color: #2C3333;
+  .cart-container table thead th {
+    background-color: #2c3333;
     color: white;
     font-size: 0.9em;
   }
-  .cart-container table .product-img{
+  .cart-container table .product-img {
     width: 150px;
     object-fit: contain;
   }
-  .cart-container table tr{
+  .cart-container table tr {
     vertical-align: middle;
     width: 100%;
   }
-  .cart-container table tr td{
+  .cart-container table tr td {
     width: 100%;
   }
-  .cart-container table .product-title-link{
+  .cart-container table .product-title-link {
     width: 200px;
     font-size: 0.8em;
   }
-  .cart-container table a{
+  .cart-container table a {
     text-decoration: none;
     color: var(--complementary-color);
     transition: 0.5s ease;
   }
-  .cart-container table a:hover{
+  .cart-container table a:hover {
     transition: 0.5s ease;
     color: var(--primary-color);
   }
-  .cart-container table input{
+  .cart-container table input {
     border-radius: 0px;
     min-width: 70px;
     border: 2px solid #eeeeee;
   }
-  .cart-container table input:focus{
+  .cart-container table input:focus {
     border: 2px solid var(--primary-color);
     box-shadow: none;
   }
-  .cart-container .remove-link:hover{
+  .cart-container .remove-link:hover {
     color: red;
   }
-  .cart-container .update-btn-col{
+  .cart-container .update-btn-col {
     float: right;
   }
-  .cart-container .update-btn-col .btn{
+  .cart-container .update-btn-col .btn {
     border-radius: 0px;
     border: none;
     outline: none;
     min-width: 100px;
   }
-  .cart-container .total-col{
+  .cart-container .total-col {
     margin-top: 20px;
   }
-  .cart-container h3{
+  .cart-container h3 {
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .cart-container .total-content{
+  .cart-container .total-content {
     border: 2px solid var(--primary-color);
   }
-  .cart-container .list-group{
+  .cart-container .list-group {
     display: inline;
     justify-content: center;
     align-items: center;
   }
-  .cart-container .list-group .list-group-item{
+  .cart-container .list-group .list-group-item {
     border: none;
   }
-  .cart-container .list-group .list-group-item{
+  .cart-container .list-group .list-group-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-weight: 300;
     border-radius: 0px;
     margin-top: 10px;
   }
-  .cart-container .list-group .product-qty{
+  .cart-container .list-group .product-qty {
     font-weight: bold;
   }
-  .cart-container #orderTotal{
+  .cart-container #orderTotal {
     background-color: #4caf50;
     font-size: 1.2em;
     color: var(--secondary-color);
   }
-  .cart-container .total-col #checkoutBtn{
+  .cart-container .total-col #checkoutBtn {
     width: 100%;
     margin-top: 20px;
     border-radius: 0px;
     border: none;
-    background-color: #2C3333;
-    font-family: 'Belanosima', sans-serif;
+    background-color: #2c3333;
+    font-family: "Belanosima", sans-serif;
   }
-  .cart-container .total-col #checkoutBtn:hover{
+  .cart-container .total-col #checkoutBtn:hover {
     background-color: var(--primary-color);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   footer {
     background-color: var(--primary-color);
@@ -1916,18 +1882,34 @@ a {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Medium Devices (e.g., tablets):*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  #loader img {
+    width: 300px;
+    border-radius: 50%;
+    animation: blink 1s infinite;
+  }
+  .loader-text {
+    margin-top: 10px;
+    font-family: "Belanosima", sans-serif;
+    color: var(--secondary-color);
+    font-size: 1.2em;
+  }
   .navbar {
     background-color: var(--primary-color);
-    padding: 10px;
+    padding: 10px 30px 10px 30px;
   }
   .navbar .navbar-brand img {
-    width: 80px;
-    transform: scale(1.1);
+    width: 100px;
+    transform: scale(1.2);
   }
   .navbar .dropdown-menu {
     border-radius: 0px;
+    z-index: 11111;
+  }
+  .navbar .dropdown-menu .dropdown-item:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
   }
   .navbar .navbar-toggler {
     border: none;
@@ -1957,7 +1939,7 @@ a {
   .navbar .navbar-nav .nav-link {
     color: white;
     font-weight: 600;
-    font-size: var(--link-mobile-size);
+    font-size: var(--link-desktop-size);
   }
   .navbar .navbar-nav .active {
     color: var(--accent-color);
@@ -1969,12 +1951,13 @@ a {
     outline: none;
     border: 0px;
     border: 0px;
+    max-width: 130px;
   }
   .navbar form .search-input {
     object-fit: cover;
     width: 200px;
+    max-width: 300px;
     outline: none;
-    border-radius: 20px 0px 0px 20px;
   }
   .navbar form #search-button {
     background-color: #2c3333;
@@ -1988,11 +1971,8 @@ a {
   }
   .navbar .icon-container {
     align-items: first baseline;
-    column-gap: 10px;
-    float: left;
-    margin-top: 10px;
+    column-gap: 20px;
   }
-
   .navbar .icon-container i {
     margin-right: 5px;
     color: var(--accent-color);
@@ -2002,20 +1982,1673 @@ a {
   .navbar .icon-container a {
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: var(--link-mobile-size);
+    font-size: var(--link-desktop-size);
   }
   .navbar .icon-container a:hover i {
     transition: 0.5s ease;
     color: #ff9f29;
   }
+
+  #carouselExampleCaptions {
+    height: 650px;
+    overflow: hidden;
+  }
+  #carouselExampleCaptions .carousel-inner,
+  #carouselExampleCaptions .carousel-item {
+    min-height: 650px;
+  }
+  #carouselExampleCaptions .carousel-inner img {
+    min-height: 650px;
+    object-fit: cover;
+  }
+  #carouselExampleCaptions .carousel-caption {
+    top: 50%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    color: var(--complementary-color);
+  }
+  #carouselExampleCaptions .carousel-caption h5 {
+    color: var(--primary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  #carouselExampleCaptions .carousel-caption p {
+    font-family: "Satisfy", cursive;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  #carouselExampleCaptions .carousel-caption .btn {
+    outline: none;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--complementary-color);
+    border-radius: 0px;
+    font-family: "Belanosima", sans-serif;
+    font-size: 1.1rem;
+  }
+  #carouselExampleCaptions .carousel-caption .btn:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  #carouselExampleCaptions .carousel-control-prev,
+  #carouselExampleCaptions .carousel-control-next {
+    background-color: var(--primary-color);
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    color: var(--complementary-color);
+    opacity: 1;
+  }
+  #carouselExampleCaptions .carousel-control-prev:hover,
+  #carouselExampleCaptions .carousel-control-next:hover {
+    opacity: 0.9;
+  }
+  #carouselExampleCaptions .carousel-indicators button {
+    background-color: var(--primary-color);
+    height: 10px;
+    opacity: 1;
+  }
+  #carouselExampleCaptions .carousel-indicators .active {
+    color: var(--complementary-color);
+    background-color: #212121;
+  }
+  .advertisement-container {
+    background: linear-gradient(
+      305deg,
+      rgba(255, 193, 7, 1) 35%,
+      rgba(76, 175, 80, 1) 72%
+    );
+    padding: 50px 180px 50px 180px;
+  }
+  .advertisement-container .col-lg-6 {
+    color: black;
+    min-height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .advertisement-container .large-ad img {
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    min-height: 500px;
+    transform: scale(1.2);
+    transition: 0.5s ease;
+  }
+  .advertisement-container .large-ad .content {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    padding: 10px;
+  }
+  .advertisement-container .large-ad .content h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 2.5em;
+  }
+  .advertisement-container .large-ad .content .btn {
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--complementary-color);
+    border-radius: 0px;
+    font-family: "Belanosima", sans-serif;
+    font-size: 1.1rem;
+  }
+  .advertisement-container .large-ad .content .btn:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .advertisement-container .small-ad-row {
+    height: 240px;
+    width: 100%;
+    position: relative;
+    background-color: var(--secondary-color);
+    margin: 5px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .advertisement-container .small-ad-row img {
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+    transition: 0.5s ease;
+  }
+  .advertisement-container .small-ad-row .ad-right-side .content {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    width: 100%;
+  }
+  .advertisement-container .ad-right-side .content h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 30px;
+  }
+  .advertisement-container .stylish-font {
+    font-family: "Satisfy", cursive;
+    color: var(--accent-color);
+  }
+  .stylish-font {
+    font-family: "Satisfy", cursive;
+    color: var(--accent-color);
+  }
+  .advertisement-container .ad-right-side .content .btn {
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--complementary-color);
+    border-radius: 0px;
+    font-family: "Belanosima", sans-serif;
+    font-size: 1rem;
+  }
+  .advertisement-container .ad-right-side .content .btn:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .advertisement-container .small-ad-row .ad-left-side .content {
+    position: absolute;
+    text-align: right;
+    top: 15%;
+    right: 3%;
+    width: 100%;
+  }
+  .advertisement-container .ad-left-side .content h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 30px;
+  }
+  .advertisement-container .ad-left-side .content .btn {
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--complementary-color);
+    border-radius: 0px;
+    font-family: "Belanosima", sans-serif;
+    font-size: 1rem;
+  }
+  .advertisement-container .ad-left-side .content .btn:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .advertisement-container .large-ad:hover img {
+    transition: 0.5s ease;
+    transform: scale(1.3);
+  }
+  .advertisement-container .small-ad-col:hover img {
+    transition: 0.5s ease;
+    transform: scale(1.1);
+  }
+  .common-product-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .common-product-container .heading {
+    color: var(--complementary-color);
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+  }
+  .common-product-container .col-md-3 {
+    padding: 0px;
+  }
+  .common-product-container .product-item {
+    padding: 0px;
+    position: relative;
+    border: 2px solid #eeeeee;
+    width: 95%;
+    margin: 10px;
+  }
+  .common-product-container .product-item:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .common-product-container .product-item .product-img {
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+  }
+  .common-product-container .product-img img {
+    width: 100%;
+    object-fit: fill;
+    position: relative;
+  }
+  .common-product-container .product-item .product-badge {
+    position: absolute;
+    text-align: right;
+    top: 2%;
+    right: 2%;
+    font-size: 1.2em;
+  }
+  .common-product-container .product-item .product-badge .badge {
+    background-color: var(--primary-color);
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 1px;
+    border-radius: 10px 0px 10px 0px;
+  }
+  .common-product-container .product-action {
+    position: absolute;
+    bottom: 0;
+    top: 30%;
+    left: auto;
+    display: none;
+    height: 0;
+    transition: height 0.9s ease;
+    transform: translateY(100%);
+  }
+  .common-product-container .product-item:hover .product-action {
+    display: block;
+    animation: slide-up 0.3s ease forwards;
+  }
+  .common-product-container .product-action ul {
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .common-product-container .product-action ul li {
+    display: inline;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    cursor: pointer;
+  }
+  .common-product-container .product-action ul li:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: 0.4s ease;
+  }
+  .common-product-container .product-action ul a {
+    transition: 0.4s ease;
+    margin: auto;
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-size: 1.1rem;
+    width: 100%;
+  }
+  .common-product-container .product-action ul li:hover a {
+    transition: 0.4s ease;
+    color: var(--secondary-color);
+  }
+  .common-product-container .product-content {
+    padding: 20px 10px 20px 15px;
+    min-height: 165px;
+  }
+  .common-product-container .product-rating ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .common-product-container .product-rating ul li {
+    display: inline;
+    color: orange;
+    font-size: 0.9em;
+  }
+  .common-product-container .product-content .product-title {
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+    transition: 0.5s ease;
+  }
+  .common-product-container .product-content .product-title a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: "Belanosima", sans-serif;
+    color: var(--complementary-color);
+  }
+  .common-product-container .product-content .product-title a:hover {
+    transition: 0.5s ease;
+    color: var(--primary-color);
+  }
+  .common-product-container .product-content .product-price {
+    display: flex;
+    grid-column: auto;
+    column-gap: 10px;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 500;
+    color: var(--primary-color);
+    vertical-align: middle;
+    font-size: 1.3em;
+    margin-top: 5px;
+  }
+  .common-product-container .product-content .product-deal-price {
+    opacity: 0.8;
+    text-decoration: line-through;
+  }
+  .common-product-container .view-all-products {
+    margin-top: 20px;
+  }
+  .common-product-container .view-all-products a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    font-family: "Belanosima", sans-serif;
+    background-color: var(--primary-color);
+    padding: 10px;
+  }
+  .common-product-container .view-all-products a:hover {
+    transition: 0.5s ease;
+    background-color: #ff9f29;
+    color: var(--secondary-color);
+  }
+
+  .product-item {
+    padding: 0px;
+    position: relative;
+    border: 2px solid #eeeeee;
+    margin: 10px;
+  }
+  .product-item:hover {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .product-item .product-img {
+    text-align: center;
+    width: auto;
+    height: auto;
+    position: relative;
+    border-bottom: 2px solid #eeeeee;
+  }
+  .product-img img {
+    width: 100%;
+    object-fit: fill;
+    position: relative;
+  }
+  .product-item .product-badge {
+    position: absolute;
+    text-align: right;
+    top: 2%;
+    right: 2%;
+    font-size: 1.2em;
+  }
+  .product-item .product-badge .badge {
+    background-color: var(--primary-color);
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 1px;
+    border-radius: 10px 0px 10px 0px;
+  }
+  .product-action {
+    position: absolute;
+    top: 20%;
+    left: auto;
+    right: 15%;
+    display: none;
+    height: 0;
+    transition: height 0.9s ease;
+    transform: translateY(100%);
+  }
+  .product-item:hover .product-action {
+    display: block;
+    animation: slide-up 0.3s ease forwards;
+  }
+  .product-action ul {
+    list-style-type: none;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .product-action ul li {
+    display: inline;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: 0.4s ease;
+    cursor: pointer;
+    width: auto;
+  }
+  .product-action ul li:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    transition: 0.4s ease;
+  }
+  .product-action ul a {
+    transition: 0.4s ease;
+    margin: auto;
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  .product-action ul li:hover a {
+    transition: 0.4s ease;
+    color: var(--secondary-color);
+  }
+  .product-content {
+    padding: 20px 10px 20px 15px;
+    min-height: 165px;
+  }
+  .product-rating ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .product-rating ul li {
+    display: inline;
+    color: orange;
+    font-size: 0.9em;
+  }
+  .product-content .product-title {
+    padding: 0px;
+    margin: 5px 0px 0px 0px;
+    transition: 0.5s ease;
+  }
+  .product-content .product-title a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: "Belanosima", sans-serif;
+    color: var(--complementary-color);
+  }
+  .product-content .product-title a:hover {
+    transition: 0.5s ease;
+    color: var(--primary-color);
+  }
+  .product-content .product-price {
+    display: flex;
+    grid-column: auto;
+    column-gap: 10px;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 500;
+    color: var(--primary-color);
+    vertical-align: middle;
+    font-size: 1.3em;
+    margin-top: 5px;
+  }
+  .product-content .product-deal-price {
+    opacity: 0.8;
+    text-decoration: line-through;
+  }
+  .health-wellness-container {
+    padding: 20px;
+  }
+  .health-wellness-container #healthWellnessCarousel {
+    padding: 0px 30px 10px 30px;
+  }
+  #healthWellnessCarousel .carousel-control-prev,
+  #healthWellnessCarousel .carousel-control-next {
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+  .health-wellness-container .heading {
+    color: var(--complementary-color);
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+  }
+
+  .clients-testimonials-container {
+    padding: 50px;
+    background-color: #f3f4f6;
+  }
+  .clients-testimonials-container .testimonial-item {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    margin: 10px;
+    height: 95%;
+    padding: 15px;
+    background-color: white;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-img {
+    overflow: hidden;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-img img {
+    width: 350px;
+    height: 100%;
+    object-fit: cover;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-details {
+    padding: 10px 10px 0px 10px;
+    position: relative;
+  }
+  .clients-testimonials-container #testimonialsCarousel .review-content {
+    font-family: "Belanosima", sans-serif;
+  }
+  .clients-testimonials-container #testimonialsCarousel .client-name {
+    color: var(--primary-color);
+    font-family: "Satisfy", cursive;
+    position: absolute;
+    bottom: -5%;
+  }
+  #testimonialsCarousel .carousel-control-prev,
+  #testimonialsCarousel .carousel-control-next {
+    background-color: var(--primary-color);
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    display: none;
+    transition: 0.4s ease;
+  }
+  .clients-testimonials-container .heading {
+    color: var(--complementary-color);
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+  }
+  .clients-testimonials-container
+    #testimonialsCarousel:hover
+    .carousel-control-prev,
+  .clients-testimonials-container
+    #testimonialsCarousel:hover
+    .carousel-control-next {
+    transition: 0.4s ease;
+    display: block;
+  }
+  .latest-blog-container {
+    padding: 50px;
+    background-color: #eeeeee;
+  }
+  .latest-blog-container .heading {
+    color: var(--complementary-color);
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+  }
+  .latest-blog-container .card {
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    overflow: hidden;
+    transition: 0.5s ease;
+  }
+  .latest-blog-container .card .card-header {
+    padding: 0px;
+    overflow: hidden;
+    transition: 0.5s ease;
+  }
+  .latest-blog-container .card .img {
+    object-fit: contain;
+    transition: 0.5s ease;
+  }
+  .latest-blog-container .card:hover img {
+    object-fit: contain;
+    transform: scale(1.1);
+    transition: 0.5s ease;
+  }
+  .latest-blog-container .card .card-body {
+    width: 100%;
+  }
+  .latest-blog-container .card i {
+    font-size: 1.1em;
+    color: var(--primary-color);
+    margin-right: 5px;
+  }
+  .latest-blog-container .card h3 {
+    margin-top: -15px;
+  }
+  .latest-blog-container .card .post-author {
+    font-family: "Belanosima", sans-serif;
+  }
+  .latest-blog-container .card h3 a {
+    text-decoration: none;
+    font-size: large;
+    color: var(--complementary-color);
+    font-weight: 600;
+    transition: 0.4s ease;
+  }
+  .latest-blog-container .card h3 a:hover {
+    transition: 0.4s ease;
+    color: var(--primary-color);
+  }
+  .latest-blog-container .card-footer {
+    background-color: white;
+    padding: 20px;
+  }
+  .latest-blog-container .card-footer .post-date {
+    font-family: "Belanosima", sans-serif;
+  }
+  .latest-blog-container .action-link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: 0.4s ease;
+  }
+  .latest-blog-container .action-link a:hover {
+    transition: 0.4s ease;
+    color: var(--complementary-color);
+    text-decoration: underline;
+  }
+  .latest-blog-container .view-all-blog {
+    margin-top: 50px;
+  }
+  .latest-blog-container .view-all-blog a {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10px;
+    font-family: "Belanosima", sans-serif;
+    transition: 0.4s ease;
+  }
+  .latest-blog-container .view-all-blog a:hover {
+    background-color: var(--accent-color);
+  }
+  .account-form {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .account-form .heading {
+    color: var(--complementary-color);
+    font-size: 2.1rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+    text-align: center;
+  }
+  .account-form input {
+    border: 1px solid #eeeeee;
+    outline: none;
+    border-radius: 0px;
+  }
+  .account-form .form-floating label {
+    color: grey;
+  }
+  .account-form input:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--primary-color);
+  }
+  .account-form .password-eye-btn {
+    border-radius: 0px;
+    outline: none;
+    background-color: transparent;
+    color: #4caf50;
+    border: 1px solid #eeeeee;
+  }
+  .account-form .password-eye-btn:focus {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .account-form .submit-btn-row {
+    margin-top: 30px;
+  }
+  .account-form .submit-btn-row .btn {
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    font-family: "Belanosima", sans-serif;
+    font-size: 1.1em;
+    padding: 10px;
+    min-width: 120px;
+  }
+  .account-form .sign-in-link-row {
+    text-align: center;
+  }
+  .account-form .sign-in-link-row a {
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+  }
+  .account-form .sign-in-link-row a:hover {
+    color: var(--primary-color);
+  }
+  .account-form .reset-password-link {
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    float: right;
+  }
+  .account-form .reset-password-link:hover {
+    color: var(--primary-color);
+  }
+  .heading-container {
+    padding: 0px;
+    height: 300px;
+    background-color: #6db3f2;
+    position: relative;
+  }
+
+  .heading-container img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    opacity: 1;
+  }
+  .heading-container .image-overlay {
+    position: relative;
+  }
+
+  .heading-container .image-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+  }
+  .heading-container .heading-row-content {
+    position: absolute;
+    top: 26%;
+    width: 100%;
+    padding: 10px 100px 10px 100px;
+    z-index: 1111;
+  }
+  .heading-container .heading-page-title h5 {
+    font-family: "Roboto Slab", serif;
+    color: var(--primary-color);
+    font-size: 1em;
+  }
+  .heading-container .heading-page-title h1 {
+    font-family: "Belanosima", sans-serif;
+    font-size: 40px;
+  }
+  .heading-container .heading-beadcrumb nav {
+    float: right;
+    font-size: 1.2em;
+  }
+  .heading-container .heading-beadcrumb a {
+    color: #eeeeee;
+    text-decoration: none;
+    font-family: "Belanosima", sans-serif;
+    transition: 0.5s ease;
+  }
+  .heading-container .heading-beadcrumb a:hover {
+    transition: 0.5s ease;
+    color: var(--primary-color);
+  }
+  .heading-container .heading-beadcrumb .active {
+    color: var(--primary-color);
+    font-family: "Belanosima", sans-serif;
+  }
+  .heading-container .heading-beadcrumb .active::before {
+    color: white;
+  }
+  .about-container {
+    padding: 50px;
+  }
+  .about-container img {
+    object-fit: contain;
+    vertical-align: middle;
+    justify-content: center;
+  }
+  .about-container .about-content {
+    margin-top: 50px;
+  }
+  .about-container .about-content .about-title {
+    color: var(--primary-color);
+    font-family: "Belanosima", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+  }
+  .about-container .about-content .store-name {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .about-container .about-content .about-para {
+    text-align: justify;
+    line-height: 28px;
+  }
+  .feature-container {
+    min-height: 400px;
+    padding: 50px;
+    background-color: #f7f5eb;
+  }
+  .feature-container .row {
+    margin-top: 50px;
+  }
+  .feature-container .heading {
+    color: var(--complementary-color);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+    text-align: center;
+  }
+  .feature-container .feature-item {
+    width: auto;
+    min-height: 200px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  .feature-container .feature-item .icon-item {
+    font-size: 2.5em;
+    margin-right: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+  .feature-container .feature-item .item-content {
+    font-size: 1.2em;
+    font-family: "Belanosima", sans-serif;
+    align-self: center;
+    width: 100%;
+  }
+  .feature-container .feature-item .item-para {
+    margin-top: 10px;
+    font-size: 1em;
+    width: 100%;
+  }
+  .about-faq {
+    padding: 50px;
+  }
+  .about-faq .heading {
+    color: var(--complementary-color);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-family: "Belanosima", sans-serif;
+    text-align: center;
+  }
+  .about-faq .accordion {
+    padding: 0px;
+  }
+  .about-faq .accordion .accordion-item {
+    border: 2px solid #f3f4f6;
+    padding: 10px;
+  }
+  .about-faq .accordion .accordion-item button {
+    font-family: "Belanosima", sans-serif;
+    font-size: 0.6em;
+  }
+  .about-faq .accordion .accordion-item button:focus {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+  }
+  .about-faq .accordion .accordion-body {
+    text-align: justify;
+  }
+  .contact-action-container {
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+  }
+  .contact-action-container .contact-item {
+    width: 90%;
+    border: 3px solid #f3f4f6;
+    min-height: 250px;
+    padding: 10px;
+  }
+  .contact-action-container .contact-item img {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+  }
+  .contact-action-container .contact-item .item-content {
+    padding-top: 20px;
+  }
+  .contact-action-container .item-content h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 1.3em;
+  }
+  .contact-action-container .item-content a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: var(--complementary-color);
+    font-size: 1em;
+  }
+  .contact-action-container .item-content a:hover {
+    color: var(--primary-color);
+  }
+  .contact-form {
+    padding: 20px;
+  }
+  .contact-form .form-col {
+    border: 2px solid #f3f4f6;
+    padding: 20px;
+  }
+  .contact-form h5 {
+    color: var(--primary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 1em;
+  }
+  .contact-form h3 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 2.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    border: 2px solid #f3f4f6;
+    border-radius: 0px;
+  }
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    box-shadow: none;
+    border: 1px solid var(--primary-color);
+  }
+  .contact-form label {
+    color: grey;
+  }
+  .contact-form form #submitBtn {
+    border-radius: 0px;
+    min-width: 150px;
+    font-family: "Belanosima", sans-serif;
+    padding: 5px;
+    font-size: 1.2em;
+    outline: none;
+    border: none;
+  }
+  .map-container iframe {
+    width: 100%;
+    padding: 0px;
+    min-height: 500px;
+  }
+  .blog-container {
+    padding: 30px;
+  }
+  .blog-container .col-md-7 .list-group {
+    list-style-type: none;
+    background-color: transparent;
+  }
+  .blog-container .list-group li {
+    background-color: transparent;
+    border: 2px solid #f3f4f6;
+    padding: 0px;
+    margin-top: 10px;
+    border-radius: 0px;
+  }
+  .blog-container .list-group .card {
+    background-color: transparent;
+    border: none;
+    transition: 0.5s ease;
+  }
+  .blog-container .list-group .card:hover img {
+    transition: 0.5s ease;
+    transform: scale(1.1);
+    filter: grayscale(0%);
+  }
+  .blog-container .card .card-header {
+    background-color: transparent;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .blog-container .card .blog-img {
+    object-fit: contain;
+    transition: 0.5s ease;
+    filter: grayscale(50%);
+  }
+  .blog-container .card .card-body {
+    padding: 20px;
+  }
+  .blog-container .card .blog-title a {
+    text-decoration: none;
+    font-family: "Belanosima", sans-serif;
+    color: var(--complementary-color);
+    transition: 0.5s ease;
+  }
+  .blog-container .card .blog-title a:hover {
+    transition: 0.5s ease;
+    color: var(--primary-color);
+  }
+  .blog-container .card .blog-icon-items {
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+    column-gap: 10px;
+  }
+  .blog-container .card .comments-text i,
+  .blog-container .card .date-text i {
+    color: var(--primary-color);
+    font-size: 1.2em;
+  }
+  .blog-container .card .comments-text h5,
+  .blog-container .card .date-text h5 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 0.9em;
+    margin-top: 3px;
+    margin-left: 5px;
+  }
+  .blog-container .card .blog-content p {
+    text-align: justify;
+    margin-top: 10px;
+  }
+  .blog-container .card .blog-read-more {
+    float: right;
+  }
+  .blog-container .card .blog-read-more a {
+    text-decoration: none;
+    font-family: "Belanosima", sans-serif;
+    color: var(--complementary-color);
+    transition: 0.4s ease;
+  }
+  .blog-container .card .blog-read-more a:hover {
+    transition: 0.4s ease;
+    color: var(--primary-color);
+  }
+  .blog-container .pagination-row {
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .blog-container .pagination-row .pagination li {
+    border: 2px solid #f3f4f6;
+    border-radius: 0px;
+    min-width: 50px;
+    margin-left: 10px;
+    padding: 0px;
+  }
+  .blog-container .pagination-row .pagination a {
+    font-family: "Belanosima", sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 1.2em;
+    color: var(--complementary-color);
+    border-radius: 0px;
+  }
+  .blog-container .pagination-row .pagination a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .blog-container .pagination-row .pagination .active {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .blog-container .social-media-col {
+    margin-top: 10px;
+    border: 2px solid #f3f4f6;
+    display: flex;
+    height: 200px;
+  }
+  .blog-container .social-media-col .social-media-item {
+    width: 100%;
+    padding: 20px;
+  }
+  .blog-container .social-media-col .social-media-item h4 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+  }
+  .blog-container .social-media-col .list-group {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0px;
+  }
+  .blog-container .social-media-col .list-group li {
+    height: 45px;
+    text-align: center;
+    margin-left: 5px;
+    padding: 0px;
+  }
+  .blog-container .social-media-col .list-group li:hover,
+  .blog-container .social-media-col .list-group li:hover a {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .blog-container .social-media-col .list-group a {
+    width: auto;
+    height: 100%;
+    font-size: 1.8em;
+    text-align: center;
+    text-decoration: none;
+    color: #212121;
+    padding: 0px;
+  }
+  .blog-container .social-media-col .list-group a:hover {
+    color: var(--secondary-color);
+  }
+  .shop-container {
+    padding: 50px;
+  }
+  .shop-container .first-row {
+    padding: 5px 0px 5px 10px;
+  }
+  .shop-container .shop-filter {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .shop-container .total-products,
+  .shop-container .filter {
+    align-self: center;
+  }
+  .shop-container .total-products h5 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+  }
+  .shop-container .filter .form-select {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    border-radius: 0px;
+    border: 2px solid #f3f4f6;
+    outline: none;
+    box-shadow: none;
+  }
+  .shop-container .second-col {
+    border: 2px solid #f3f4f6;
+    height: 300px;
+    margin-top: 5px;
+    padding: 10px;
+  }
+  .shop-container .second-col h5 {
+    font-family: "Belanosima", sans-serif;
+    color: var(--complementary-color);
+    margin-left: 5px;
+  }
+  .shop-container .second-col .list-group {
+    margin-top: 10px;
+    margin-left: -10px;
+  }
+  .shop-container .second-col .list-group-item {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #f3f4f6;
+    border-radius: 0px;
+  }
+  .shop-container .pagination-row {
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .shop-container .pagination-row .pagination li {
+    border: 2px solid #f3f4f6;
+    border-radius: 0px;
+    min-width: 50px;
+    margin-left: 10px;
+    padding: 0px;
+  }
+  .shop-container .pagination-row .pagination a {
+    font-family: "Belanosima", sans-serif;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 1.2em;
+    color: var(--complementary-color);
+    border-radius: 0px;
+  }
+  .shop-container .pagination-row .pagination a:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+  .shop-container .pagination-row .pagination .active {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+
+  .checkout-container {
+    padding: 50px;
+  }
+  .checkout-container form {
+    border: 2px solid #f3f4f6;
+    padding: 20px;
+    width: 100%;
+  }
+  .checkout-container form:hover {
+    border: 2px solid var(--primary-color);
+  }
+  .checkout-container h3 {
+    padding: 5px;
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+  }
+  .checkout-container h5 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  .checkout-container form .col-12 {
+    width: 50%;
+    overflow: hidden;
+  }
+  .checkout-container form label {
+    overflow: hidden;
+    font-size: 1em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .checkout-container form input,
+  .checkout-container form select {
+    border-radius: 0px;
+    box-shadow: none;
+    outline: none;
+    border: 2px solid #f3f4f6;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .checkout-container form input:focus,
+  .checkout-container form select:focus {
+    box-shadow: none;
+    border: 2px solid var(--primary-color);
+    overflow: hidden;
+  }
+  .checkout-container .total-content {
+    border: 2px solid var(--primary-color);
+  }
+  .checkout-container .list-group {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+  .checkout-container .list-group .list-group-item {
+    border: none;
+  }
+  .checkout-container .list-group .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 300;
+    border-radius: 0px;
+    margin-top: 10px;
+  }
+  .checkout-container .list-group .product-qty {
+    font-weight: bold;
+  }
+  .checkout-container #orderTotal {
+    background-color: #4caf50;
+    font-size: 1.2em;
+    color: var(--secondary-color);
+  }
+  .checkout-container .form-button {
+    margin-top: 10px;
+  }
+  .checkout-container .form-button a {
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    font-family: "Belanosima", sans-serif;
+    min-width: 120px;
+    font-size: 1.1em;
+  }
+  .product-page-container {
+    padding: 50px;
+  }
+  .product-page-container .image-col .row {
+    width: 100%;
+    justify-content: center;
+  }
+  .product-page-container .image-col .row .col-12 {
+    width: 100%;
+  }
+  .product-page-container .image-col .main-img-container {
+    overflow: hidden;
+    text-align: center;
+  }
+  .product-page-container .image-col .main-img-container img {
+    width: auto;
+    object-fit: cover;
+    border: 2px solid #eeeeee;
+  }
+  .product-page-container .img-gallery {
+    list-style-type: none;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .product-page-container .img-gallery .col-4 {
+    border: 2px solid #eeeeee;
+    margin: 2px;
+    padding: 10px;
+    min-width: 100px;
+  }
+  .product-page-container .img-gallery img {
+    width: 100%;
+    object-fit: fill;
+    cursor: pointer;
+  }
+  #main-image {
+    transition: opacity 0.5s ease;
+  }
+
+  .product-page-container .product-info-col {
+    padding: 10px;
+  }
+  .product-page-container .product-info-col .category-name a {
+    color: var(--primary-color);
+    font-family: "Belanosima", sans-serif;
+    text-decoration: none;
+    transition: 0.4s ease;
+  }
+  .product-page-container .product-info-col .category-name a:hover {
+    transition: 0.4s ease;
+    color: var(--accent-color);
+  }
+  .product-page-container .product-info-col .product-title h3 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    font-size: 35px;
+    margin-top: 10px;
+    width: 80%;
+  }
+  .product-page-container .product-info-col .product-price {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .product-page-container .product-info-col .product-price h5 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+  }
+  .product-page-container .product-info-col .product-price .previous-price {
+    text-decoration: line-through;
+    font-size: 1em;
+    opacity: 0.9;
+  }
+  .product-page-container .product-info-col .rating-item {
+    display: flex;
+    column-gap: 10px;
+    width: 100%;
+  }
+  .product-page-container .rating-count ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  .product-page-container .rating-count ul li {
+    display: inline;
+  }
+  .product-page-container .rating-count ul i {
+    color: orange;
+    font-size: 0.7em;
+  }
+  .product-page-container .rating-item .add-wishlist i {
+    font-size: 0.8em;
+  }
+  .product-page-container .rating-item .add-wishlist a {
+    text-decoration: none;
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+    transition: 0.4s ease;
+  }
+  .product-page-container .rating-item .add-wishlist a:hover {
+    color: var(--primary-color);
+    transition: 0.4s ease;
+  }
+  .product-page-container .action-button {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  .product-page-container .action-button #productQty {
+    border-radius: 0px;
+    border: 2px solid #eeeeee;
+  }
+  .product-page-container .action-button #productQty:focus {
+    box-shadow: none;
+    border: 2px solid var(--primary-color);
+  }
+  .product-page-container .action-button #addToCartBtn {
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    font-family: "Belanosima", sans-serif;
+    text-transform: uppercase;
+    padding: 7px;
+  }
+  .product-page-container .product-description p {
+    text-align: justify;
+  }
+  .product-page-container .product-description h6 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+  }
+  .cart-container {
+    padding: 50px;
+  }
+  .cart-container .cart-table-col {
+    padding: 10px;
+    font-family: "Belanosima", sans-serif;
+  }
+  .cart-container table thead th {
+    background-color: #2c3333;
+    color: white;
+  }
+  .cart-container table .product-img {
+    width: 100px;
+  }
+  .cart-container table tr {
+    vertical-align: middle;
+  }
+  .cart-container table a {
+    text-decoration: none;
+    color: var(--complementary-color);
+    transition: 0.5s ease;
+  }
+  .cart-container table a:hover {
+    transition: 0.5s ease;
+    color: var(--primary-color);
+  }
+  .cart-container table input {
+    border-radius: 0px;
+    border: 2px solid #eeeeee;
+  }
+  .cart-container table input:focus {
+    border: 2px solid var(--primary-color);
+    box-shadow: none;
+  }
+  .cart-container .remove-link:hover {
+    color: red;
+  }
+  .cart-container .update-btn-col {
+    float: right;
+  }
+  .cart-container .update-btn-col .btn {
+    border-radius: 0px;
+    border: none;
+    outline: none;
+    min-width: 100px;
+  }
+
+  .cart-container h3 {
+    color: var(--complementary-color);
+    font-family: "Belanosima", sans-serif;
+  }
+  .cart-container .total-content {
+    border: 2px solid var(--primary-color);
+  }
+  .cart-container .list-group {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart-container .list-group .list-group-item {
+    border: none;
+  }
+  .cart-container .list-group .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 300;
+    border-radius: 0px;
+    margin-top: 10px;
+  }
+  .cart-container .list-group .product-qty {
+    font-weight: bold;
+  }
+  .cart-container #orderTotal {
+    background-color: #4caf50;
+    font-size: 1.2em;
+    color: var(--secondary-color);
+  }
+  .cart-container .total-col #checkoutBtn {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0px;
+    border: none;
+    background-color: #2c3333;
+    font-family: "Belanosima", sans-serif;
+  }
+  .cart-container .total-col #checkoutBtn:hover {
+    background-color: var(--primary-color);
+  }
+
+  footer {
+    background-color: var(--primary-color);
+    clear: both;
+  }
+  footer #goToTop {
+    text-decoration: none;
+    text-align: center;
+    color: var(--secondary-color);
+  }
+  footer .go-to-top-row {
+    background-color: #285430;
+    padding: 10px;
+    transition: 0.2s ease;
+  }
+  footer .go-to-top-row:hover {
+    background-color: #2c3333;
+    transition: 0.2s ease;
+  }
+  footer .information-row {
+    padding: 20px;
+  }
+  footer .col-12 {
+    padding: 10px;
+    overflow: hidden;
+  }
+  footer h5 {
+    font-family: "Belanosima", sans-serif;
+  }
+  footer .company-col img {
+    width: 120px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  footer .company-col p {
+    color: var(--secondary-color);
+    font-size: var(--link-mobile-size);
+    margin-top: 10px;
+    text-align: justify;
+  }
+  footer .links-col .list-group {
+    list-style-type: none;
+  }
+  footer .links-col .list-group li {
+    background-color: transparent;
+    border: none;
+  }
+  footer .links-col .list-group a {
+    text-decoration: none;
+    font-size: var(--link-mobile-size);
+    color: var(--secondary-color);
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  footer .links-col .list-group a:hover {
+    color: var(--accent-color);
+  }
+  footer .links-col .list-group .active {
+    color: var(--accent-color);
+  }
+  footer .contact-col table {
+    background-color: transparent;
+  }
+  footer .contact-col table tr td {
+    background-color: transparent;
+    border: none;
+    color: var(--secondary-color);
+  }
+  footer .contact-col table tr i {
+    color: var(--accent-color);
+    font-size: 1em;
+  }
+  footer .contact-col table tr a {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  footer .contact-col table tr a:hover {
+    color: var(--accent-color);
+    border-bottom: 1px solid black;
+  }
+  footer .contact-col table tr p {
+    color: var(--complementary-color);
+    font-size: var(--link-desktop-size);
+    font-family: "Belanosima", sans-serif;
+    font-size: 1.2em;
+  }
+  footer .newsletter-col p {
+    font-weight: 600;
+  }
+  footer .newsletter-col input {
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    max-width: 200px;
+    font-family: "Belanosima", sans-serif;
+  }
+  footer .newsletter-col input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  footer .newsletter-col #news-letter-input {
+    background-color: white;
+    color: var(--secondary-color);
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    background-color: var(--complementary-color);
+    width: 70px;
+  }
+  footer .newsletter-col #news-letter-input:hover {
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+  }
+  footer .social-media-row ul a {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px;
+    color: var(--complementary-color);
+  }
+  footer .social-media-row ul a:hover {
+    color: var(--accent-color);
+    background-color: var(--complementary-color);
+  }
+  footer .social-media-row ul li {
+    display: inline;
+  }
+  footer .copyright-row {
+    vertical-align: middle;
+  }
+  footer .copyright-row .copyright-col p {
+    font-family: "Belanosima", sans-serif;
+    color: var(--secondary-color);
+  }
+  footer .payment-gateway-col {
+    text-align: center;
+  }
+  footer .payment-gateway-col img {
+    width: 200px;
+    height: auto;
+  }
+  footer .temrs-policy-col ul {
+    list-style-type: none;
+    float: right;
+    margin-top: -40px;
+  }
+  footer .temrs-policy-col li {
+    background-color: transparent;
+    border: none;
+  }
+  footer .temrs-policy-col li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
+  footer .temrs-policy-col li a:hover {
+    color: var(--accent-color);
+    border-bottom: 1px solid black;
+  }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/*  Large Devices (e.g., desktops and laptops): */
+@media only screen and (min-width: 1024px) {
   #loader img {
     width: 300px;
     border-radius: 50%;
@@ -3267,315 +4900,303 @@ a {
     color: var(--secondary-color);
   }
 
-
-
-
-  .checkout-container{
+  .checkout-container {
     padding: 50px 100px 50px 100px;
   }
-  .checkout-container form{ 
+  .checkout-container form {
     border: 2px solid #f3f4f6;
     padding: 20px;
     width: 100%;
   }
-  .checkout-container form:hover{ 
+  .checkout-container form:hover {
     border: 2px solid var(--primary-color);
   }
-  .checkout-container h3{ 
+  .checkout-container h3 {
     padding: 5px;
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .checkout-container h5{ 
+  .checkout-container h5 {
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 1em;
     margin-bottom: 15px;
   }
-  .checkout-container form .col-12{ 
+  .checkout-container form .col-12 {
     width: 50%;
   }
-  .checkout-container form input, .checkout-container form select{
+  .checkout-container form input,
+  .checkout-container form select {
     border-radius: 0px;
     box-shadow: none;
     outline: none;
     border: 2px solid #f3f4f6;
   }
-  .checkout-container form input:focus, .checkout-container form select:focus{
+  .checkout-container form input:focus,
+  .checkout-container form select:focus {
     box-shadow: none;
     border: 2px solid var(--primary-color);
   }
-  .checkout-container .total-content{
+  .checkout-container .total-content {
     border: 2px solid var(--primary-color);
   }
-  .checkout-container .list-group{
+  .checkout-container .list-group {
     display: inline;
     justify-content: center;
     align-items: center;
   }
-  .checkout-container .list-group .list-group-item{
+  .checkout-container .list-group .list-group-item {
     border: none;
   }
-  .checkout-container .list-group .list-group-item{
+  .checkout-container .list-group .list-group-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-weight: 300;
     border-radius: 0px;
     margin-top: 10px;
   }
-  .checkout-container .list-group .product-qty{
+  .checkout-container .list-group .product-qty {
     font-weight: bold;
   }
-  .checkout-container #orderTotal{
+  .checkout-container #orderTotal {
     background-color: #4caf50;
     font-size: 1.2em;
     color: var(--secondary-color);
   }
-  .checkout-container .form-button{
+  .checkout-container .form-button {
     margin-top: 10px;
   }
-  .checkout-container .form-button a{
+  .checkout-container .form-button a {
     border-radius: 0px;
     border: none;
     outline: none;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     min-width: 120px;
     font-size: 1.1em;
   }
-  .product-page-container{
+  .product-page-container {
     padding: 50px 100px 50px 100px;
   }
-  .product-page-container .image-col .row{
+  .product-page-container .image-col .row {
     width: 100%;
     justify-content: center;
   }
-  .product-page-container .image-col .row .col-12{
+  .product-page-container .image-col .row .col-12 {
     width: 100%;
   }
-  .product-page-container .image-col .main-img-container{
+  .product-page-container .image-col .main-img-container {
     overflow: hidden;
     text-align: center;
-
   }
-  .product-page-container .image-col .main-img-container img{
+  .product-page-container .image-col .main-img-container img {
     width: 70%;
     object-fit: cover;
-    border: 2px solid #eeeeee; 
+    border: 2px solid #eeeeee;
   }
-  .product-page-container .img-gallery{
-    list-style-type: none;    
+  .product-page-container .img-gallery {
+    list-style-type: none;
     width: 100%;
     margin-top: 20px;
   }
-  .product-page-container .img-gallery .col-4{
+  .product-page-container .img-gallery .col-4 {
     border: 2px solid #eeeeee;
     margin: 2px;
     padding: 10px;
   }
-  .product-page-container .img-gallery img{
+  .product-page-container .img-gallery img {
     width: 100%;
     object-fit: fill;
     cursor: pointer;
   }
-  #main-image{
+  #main-image {
     transition: opacity 0.5s ease;
   }
 
-  .product-page-container .product-info-col{
+  .product-page-container .product-info-col {
     padding: 10px;
   }
-  .product-page-container .product-info-col .category-name a{
+  .product-page-container .product-info-col .category-name a {
     color: var(--primary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     text-decoration: none;
     transition: 0.4s ease;
   }
-  .product-page-container .product-info-col .category-name a:hover{
+  .product-page-container .product-info-col .category-name a:hover {
     transition: 0.4s ease;
     color: var(--accent-color);
   }
-  .product-page-container .product-info-col .product-title h3{
+  .product-page-container .product-info-col .product-title h3 {
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-size: 35px;
     margin-top: 10px;
     width: 80%;
   }
-  .product-page-container .product-info-col .product-price{
+  .product-page-container .product-info-col .product-price {
     display: flex;
     column-gap: 10px;
     align-items: center;
     margin-top: 20px;
   }
-  .product-page-container .product-info-col .product-price h5{
+  .product-page-container .product-info-col .product-price h5 {
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .product-page-container .product-info-col .product-price .previous-price{
+  .product-page-container .product-info-col .product-price .previous-price {
     text-decoration: line-through;
     font-size: 1em;
     opacity: 0.9;
   }
-  .product-page-container .product-info-col .rating-item{
-      display: flex;
-      column-gap: 10px;
-      width: 100%;
+  .product-page-container .product-info-col .rating-item {
+    display: flex;
+    column-gap: 10px;
+    width: 100%;
   }
-  .product-page-container .rating-count ul{
+  .product-page-container .rating-count ul {
     list-style-type: none;
     padding: 0px;
   }
-  .product-page-container .rating-count ul li{
+  .product-page-container .rating-count ul li {
     display: inline;
   }
-  .product-page-container .rating-count ul i{
+  .product-page-container .rating-count ul i {
     color: orange;
     font-size: 0.7em;
   }
-  .product-page-container .rating-item .add-wishlist i{
+  .product-page-container .rating-item .add-wishlist i {
     font-size: 0.8em;
   }
-  .product-page-container .rating-item .add-wishlist a{
+  .product-page-container .rating-item .add-wishlist a {
     text-decoration: none;
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     transition: 0.4s ease;
-
   }
-  .product-page-container .rating-item .add-wishlist a:hover{
+  .product-page-container .rating-item .add-wishlist a:hover {
     color: var(--primary-color);
     transition: 0.4s ease;
   }
-  .product-page-container .action-button{
+  .product-page-container .action-button {
     display: flex;
     column-gap: 10px;
     margin-bottom: 20px;
     align-items: center;
   }
-  .product-page-container .action-button #productQty{
+  .product-page-container .action-button #productQty {
     border-radius: 0px;
     border: 2px solid #eeeeee;
   }
-  .product-page-container .action-button #productQty:focus{
+  .product-page-container .action-button #productQty:focus {
     box-shadow: none;
     border: 2px solid var(--primary-color);
   }
-  .product-page-container .action-button #addToCartBtn{
+  .product-page-container .action-button #addToCartBtn {
     border-radius: 0px;
     outline: none;
     border: none;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     text-transform: uppercase;
     padding: 7px;
   }
-  .product-page-container .product-description p{
+  .product-page-container .product-description p {
     text-align: justify;
   }
-  .product-page-container .product-description h6{
+  .product-page-container .product-description h6 {
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .cart-container{
+  .cart-container {
     padding: 50px 120px 50px 120px;
   }
-  .cart-container .cart-table-col{
+  .cart-container .cart-table-col {
     padding: 10px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .cart-container table thead th{
-    background-color: #2C3333;
+  .cart-container table thead th {
+    background-color: #2c3333;
     color: white;
   }
-  .cart-container table .product-img{
+  .cart-container table .product-img {
     width: 100px;
   }
-  .cart-container table tr{
+  .cart-container table tr {
     vertical-align: middle;
   }
-  .cart-container table a{
+  .cart-container table a {
     text-decoration: none;
     color: var(--complementary-color);
     transition: 0.5s ease;
   }
-  .cart-container table a:hover{
+  .cart-container table a:hover {
     transition: 0.5s ease;
     color: var(--primary-color);
   }
-  .cart-container table input{
+  .cart-container table input {
     border-radius: 0px;
     border: 2px solid #eeeeee;
   }
-  .cart-container table input:focus{
+  .cart-container table input:focus {
     border: 2px solid var(--primary-color);
     box-shadow: none;
   }
-  .cart-container .remove-link:hover{
+  .cart-container .remove-link:hover {
     color: red;
   }
-  .cart-container .update-btn-col{
+  .cart-container .update-btn-col {
     float: right;
   }
-  .cart-container .update-btn-col .btn{
+  .cart-container .update-btn-col .btn {
     border-radius: 0px;
     border: none;
     outline: none;
     min-width: 100px;
   }
 
-  .cart-container h3{
+  .cart-container h3 {
     color: var(--complementary-color);
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
   }
-  .cart-container .total-content{
+  .cart-container .total-content {
     border: 2px solid var(--primary-color);
   }
-  .cart-container .list-group{
+  .cart-container .list-group {
     display: inline;
     justify-content: center;
     align-items: center;
   }
-  .cart-container .list-group .list-group-item{
+  .cart-container .list-group .list-group-item {
     border: none;
   }
-  .cart-container .list-group .list-group-item{
+  .cart-container .list-group .list-group-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'Belanosima', sans-serif;
+    font-family: "Belanosima", sans-serif;
     font-weight: 300;
     border-radius: 0px;
     margin-top: 10px;
   }
-  .cart-container .list-group .product-qty{
+  .cart-container .list-group .product-qty {
     font-weight: bold;
   }
-  .cart-container #orderTotal{
+  .cart-container #orderTotal {
     background-color: #4caf50;
     font-size: 1.2em;
     color: var(--secondary-color);
   }
-  .cart-container .total-col #checkoutBtn{
+  .cart-container .total-col #checkoutBtn {
     width: 100%;
     margin-top: 20px;
     border-radius: 0px;
     border: none;
-    background-color: #2C3333;
-    font-family: 'Belanosima', sans-serif;
+    background-color: #2c3333;
+    font-family: "Belanosima", sans-serif;
   }
-  .cart-container .total-col #checkoutBtn:hover{
+  .cart-container .total-col #checkoutBtn:hover {
     background-color: var(--primary-color);
   }
-
-
-
-
-
-
-
-
-
 
   footer {
     background-color: var(--primary-color);
@@ -3733,9 +5354,4 @@ a {
     color: var(--accent-color);
     border-bottom: 1px solid black;
   }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  
 }

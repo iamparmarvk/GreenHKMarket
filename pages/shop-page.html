@@ -2,40 +2,68 @@
 <html lang="en">
 
 <head>
-  
-  <title>GreenHKMarket - Organic and Sustainable Products in the UK</title>
+  <title>Shop - Organic and Sustainable Products in the UK</title>
+  <!-- Set the character encoding to UTF-8 -->
   <meta charset="UTF-8">
+
+  <!-- Set the viewport to ensure proper rendering on different devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="GreenHKMarket - Organic and Sustainable Products in the UK">
-  <meta name="keywords" content="greenHKMarket, organic products, sustainable products, UK, eco-friendly, green lifestyle">
+
+  <!-- Define the page description for search engine optimization (SEO) -->
+  <meta name="description" content="GreenHKMarket - Explore a wide range of organic and sustainable products in the UK">
+
+  <!-- Specify the keywords related to the website for SEO purposes -->
+  <meta name="keywords"
+    content="greenHKMarket, organic products, sustainable products, UK, eco-friendly, green lifestyle">
+
+  <!-- Set the favicon for the website -->
   <link rel="icon" href="../assets/images/theme-logo/favicon/favicon-32x32.png" type="image/x-icon">
+
+  <!-- Preconnect to Google Fonts for better performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto+Slab&family=Satisfy&family=Ubuntu&family=Work+Sans&display=swap" rel="stylesheet">
+
+  <!-- Import and apply Google Fonts for the website -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Belanosima&family=Roboto+Slab&family=Satisfy&family=Ubuntu&family=Work+Sans&display=swap"
+    rel="stylesheet">
+
+  <!-- Include Bootstrap CSS framework for styling -->
   <link href="../assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Include SweetAlert2 CSS for customized alerts -->
   <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css" rel="stylesheet">
+
+  <!-- Include custom CSS styles for the website -->
   <link href="../assets/css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+
+  <!-- Include Font Awesome CSS for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
+
 <body>
-  <!-- Loader -->
+  <!-- Loader start-->
   <div id="loader-wrapper">
     <div id="loader">
       <img src="../assets/images/theme-logo/logo.png" alt="GreenHKMarket Logo">
       <div class="loader-text">Loading...</div>
     </div>
   </div>
+  <!-- Loader end-->
   <main>
+    <!-- Page wrapper start -->
     <div class="page-wrapper">
+      <!-- Header start -->
       <header>
+        <!-- Navbar start -->
         <nav class="navbar navbar-expand-lg ">
           <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
               <img src="../assets/images/theme-logo/logo.png" class="img-fluid" alt="GreenHKMarket Logo">
             </a>
             <div class="navbar-toggler" onclick="navbarToggle(this)" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
               <div class="bar1"></div>
               <div class="bar2"></div>
               <div class="bar3"></div>
@@ -78,9 +106,11 @@
                     <option value="Sustainable Fashion">Sustainable Fashion</option>
                     <option value="Health and Wellness">Health and Wellness</option>
                   </select>
-                  <input type="text" class="form-control search-input" aria-label="Text input with category select" placeholder="Search products">
-                  <a href="javascript:void(0)" class="btn btn-outline-secondary" type="button" id="search-button"><i class="fa fa-search"></i></a>
-                </div>                
+                  <input type="text" class="form-control search-input" aria-label="Text input with category select"
+                    placeholder="Search products">
+                  <a href="javascript:void(0)" class="btn btn-outline-secondary" type="button" id="search-button"><i
+                      class="fa fa-search"></i></a>
+                </div>
               </form>
               <div class="d-flex icon-container mb-2 mb-lg-0 justify-content-end align-items-center">
                 <a href="register.html"><i class="fa fa-user"></i> Account</a>
@@ -89,431 +119,451 @@
             </div>
           </div>
         </nav>
+        <!-- Navbar end -->
       </header>
-      <!-- Heading container -->
+      <!-- Header end -->
+      <!-- Heading container start-->
       <div class="container-fluid heading-container">
         <div class="image-overlay">
           <img src="../assets/images/others/heading-image.png" class="img-fluid" alt="heading-img">
         </div>
         <div class="row justify-content-around align-items-center align-self-center heading-row-content">
-            <div class="col-12 col-md-6 col-lg-6 heading-page-title">
-                <h5>WELCOME TO GREENHKMARKET</h5>
-                <h1>Shop</h1>
-            </div>
-            <div class="col-12 col-md-6 col-lg-6 heading-beadcrumb">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb text-light">
-                      <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">Shop</li>
-                    </ol>
-                </nav>
-            </div>
+          <div class="col-12 col-md-6 col-lg-6 heading-page-title">
+            <h5>WELCOME TO GREENHKMARKET</h5>
+            <h1>Shop</h1>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 heading-beadcrumb">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb text-light">
+                <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Shop</li>
+              </ol>
+            </nav>
+          </div>
         </div>
       </div>
+      <!-- Heading container end-->
+      <!-- Main container start -->
       <div class="container-fluid shop-container">
+        <!-- First row start -->
         <div class="row">
-            <div class="col-12 col-md-9 col-lg-9 first-col">
-                <div class="product-section">
-                    <div class="row first-row">
-                        <div class="col-12 col-md-12 col-lg-12">
-                            <div class="shop-filter">
-                                <div class="total-products">
-                                    <h5>Showing 1–12 of 18 results</h5>
-                                </div>
-                                <div class="filter">
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected value="default-filter">Default sorting</option>
-                                        <option value="low-to-high-filter">Sort by price: low to high</option>
-                                        <option value="high-to-low-filter">Sort by price: high to low</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
+          <!-- First col start -->
+          <div class="col-12 col-md-9 col-lg-9 first-col">
+            <div class="product-section">
+              <div class="row first-row">
+                <div class="col-12 col-md-12 col-lg-12">
+                  <div class="shop-filter">
+                    <div class="total-products">
+                      <h5>Showing 1–12 of 18 results</h5>
                     </div>
-                    <div class="row second-row">
-                        <div class="col-12 col-md-12 col-lg-12">
-                            <div class="row">
-                                <div class="col-6 col-md-4 col-lg-4">
-                                  <div class="product-item">
-                                    <div class="product-img m-auto">
-                                      <img src="../assets/images/product-images/1.png" class="img-fluid " alt="product-image">
-                                    </div>
-                                    <div class="product-badge">
-                                      <span class="badge">New</span>
-                                    </div>
-                                    <div class="product-action">
-                                      <ul>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                    </div>
-                      
-                                    <div class="product-content">
-                                      <div class="product-rating">
-                                        <ul>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
-                                        </ul>
-                                      </div>
-                                      <div class="product-title">
-                                        <a href="product-page.html">Carrots Group Scal</a>
-                                      </div>
-                                      <div class="product-price">
-                                        <span class="product-current-price">£20</span>
-                                        <span class="product-deal-price">£20</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-4">
-                                  <div class="product-item">
-                                    <div class="product-img m-auto">
-                                      <img src="../assets/images/product-images/2.png" class="img-fluid " alt="product-image">
-                                    </div>
-                                    <div class="product-badge">
-                                      <span class="badge">New</span>
-                                    </div>
-                                    <div class="product-action">
-                                      <ul>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                    </div>
-                      
-                                    <div class="product-content">
-                                      <div class="product-rating">
-                                        <ul>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
-                                        </ul>
-                                      </div>
-                                      <div class="product-title">
-                                        <a href="product-page.html">organic cherries 1KG</a>
-                                      </div>
-                                      <div class="product-price">
-                                        <span class="product-current-price">£20</span>
-                                        <span class="product-deal-price">£20</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-4">
-                                  <div class="product-item">
-                                    <div class="product-img m-auto">
-                                      <img src="../assets/images/product-images/3.png" class="img-fluid " alt="product-image">
-                                    </div>
-                                    <div class="product-badge">
-                                      <span class="badge">New</span>
-                                    </div>
-                                    <div class="product-action">
-                                      <ul>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                    </div>
-                      
-                                    <div class="product-content">
-                                      <div class="product-rating">
-                                        <ul>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
-                                        </ul>
-                                      </div>
-                                      <div class="product-title">
-                                        <a href="product-page.html">organic mangoes 1KG</a>
-                                      </div>
-                                      <div class="product-price">
-                                        <span class="product-current-price">£20</span>
-                                        <span class="product-deal-price">£20</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-4">
-                                  <div class="product-item">
-                                    <div class="product-img m-auto">
-                                      <img src="../assets/images/product-images/4.png" class="img-fluid " alt="product-image">
-                                    </div>
-                                    <div class="product-badge">
-                                      <span class="badge">New</span>
-                                    </div>
-                                    <div class="product-action">
-                                      <ul>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                    </div>
-                      
-                                    <div class="product-content">
-                                      <div class="product-rating">
-                                        <ul>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
-                                        </ul>
-                                      </div>
-                                      <div class="product-title">
-                                        <a href="product-page.html">organic kiwi 1KG</a>
-                                      </div>
-                                      <div class="product-price">
-                                        <span class="product-current-price">£20</span>
-                                        <span class="product-deal-price">£20</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                      
-                                <div class="col-6 col-md-4 col-lg-4">
-                                  <div class="product-item">
-                                    <div class="product-img m-auto">
-                                      <img src="../assets/images/product-images/5.webp" class="img-fluid " alt="product-image">
-                                    </div>
-                                    <div class="product-badge">
-                                      <span class="badge">New</span>
-                                    </div>
-                                    <div class="product-action">
-                                      <ul>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                    </div>
-                      
-                                    <div class="product-content">
-                                      <div class="product-rating">
-                                        <ul>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
-                                        </ul>
-                                      </div>
-                                      <div class="product-title">
-                                        <a href="product-page.html">Viridian Quercetin B5 Plus Complex 60 capsules</a>
-                                      </div>
-                                      <div class="product-price">
-                                        <span class="product-current-price">£21.99</span>
-                                        <span class="product-deal-price">£22.52</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-4">
-                                  <div class="product-item">
-                                    <div class="product-img m-auto">
-                                      <img src="../assets/images/product-images/6.webp" class="img-fluid " alt="product-image">
-                                    </div>
-                                    <div class="product-badge">
-                                      <span class="badge">New</span>
-                                    </div>
-                                    <div class="product-action">
-                                      <ul>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                    </div>
-                      
-                                    <div class="product-content">
-                                      <div class="product-rating">
-                                        <ul>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
-                                        </ul>
-                                      </div>
-                                      <div class="product-title">
-                                        <a href="product-page.html">Teapigs Liquorice & Mint 50 Bags</a>
-                                      </div>
-                                      <div class="product-price">
-                                        <span class="product-current-price">£15.50</span>
-                                        <span class="product-deal-price">£22.52</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-4">
-                                  <div class="product-item">
-                                    <div class="product-img m-auto">
-                                      <img src="../assets/images/product-images/7.webp" class="img-fluid " alt="product-image">
-                                    </div>
-                                    <div class="product-badge">
-                                      <span class="badge">New</span>
-                                    </div>
-                                    <div class="product-action">
-                                      <ul>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                    </div>
-                      
-                                    <div class="product-content">
-                                      <div class="product-rating">
-                                        <ul>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
-                                        </ul>
-                                      </div>
-                                      <div class="product-title">
-                                        <a href="product-page.html">Steens Monofloral Manuka Honey UMF10+ 340g</a>
-                                      </div>
-                                      <div class="product-price">
-                                        <span class="product-current-price">£24.99</span>
-                                        <span class="product-deal-price">£29.52</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-6 col-md-4 col-lg-4">
-                                  <div class="product-item">
-                                    <div class="product-img m-auto">
-                                      <img src="../assets/images/product-images/8.webp" class="img-fluid " alt="product-image">
-                                    </div>
-                                    <div class="product-badge">
-                                      <span class="badge">New</span>
-                                    </div>
-                                    <div class="product-action">
-                                      <ul>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                                        <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
-                                      </ul>
-                                    </div>
-                      
-                                    <div class="product-content">
-                                      <div class="product-rating">
-                                        <ul>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                                          <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
-                                        </ul>
-                                      </div>
-                                      <div class="product-title">
-                                        <a href="product-page.html">Alemany Forest Honey 500g</a>
-                                      </div>
-                                      <div class="product-price">
-                                        <span class="product-current-price">£12.99</span>
-                                        <span class="product-deal-price">£14.52</span>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-                            <div class="row pagination-row">
-                                <div class="col-12 col-md-12 col-lg-12 d-flex justify-content-around">
-                                    <nav aria-label="blog navigation">
-                                        <ul class="pagination m-auto">
-                                            <li class="page-item">
-                                                <a class="page-link" href="javascript:void(0)" aria-label="Previous">
-                                                  <span aria-hidden="true">&laquo;</span>
-                                                </a>
-                                            </li>
-                                          <li class="page-item"><a class="page-link active" href="javascript:void(0)">1</a></li>
-                                          <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
-                                          <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
-                                          <li class="page-item">
-                                            <a class="page-link" href="javascript:void(0)" aria-label="Next">
-                                              <span aria-hidden="true">&raquo;</span>
-                                            </a>
-                                          </li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="filter">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected value="default-filter">Default sorting</option>
+                        <option value="low-to-high-filter">Sort by price: low to high</option>
+                        <option value="high-to-low-filter">Sort by price: high to low</option>
+                      </select>
                     </div>
+                  </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-3 col-lg-3 second-col">
-                <h5>Product Category</h5>
-                <div class="category-list">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="food-and-groceries">
-                                <label class="form-check-label" for="food-and-groceries">
-                                    Food and Groceries
-                                </label>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="home-and-kitchen">
-                                <label class="form-check-label" for="home-and-kitchen">
-                                    Home and Kitchen
-                                </label>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="beauty-care">
-                                <label class="form-check-label" for="beauty-care">
-                                    Beauty Care
-                                </label>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="sustainable-fashion">
-                                <label class="form-check-label" for="sustainable-fashion">
-                                    Sustainable Fashion
-                                </label>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="health-and-wellness">
-                                <label class="form-check-label" for="health-and-wellness">
-                                    Health and Wellness
-                                </label>
-                            </div>
-                        </li>
-                    </ul>
+              </div>
+              <div class="row second-row">
+                <div class="col-12 col-md-12 col-lg-12">
+                  <div class="row">
+                    <div class="col-6 col-md-4 col-lg-4">
+                      <div class="product-item">
+                        <div class="product-img m-auto">
+                          <img src="../assets/images/product-images/1.png" class="img-fluid " alt="product-image">
+                        </div>
+                        <div class="product-badge">
+                          <span class="badge">New</span>
+                        </div>
+                        <div class="product-action">
+                          <ul>
+                            <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+
+                        <div class="product-content">
+                          <div class="product-rating">
+                            <ul>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-title">
+                            <a href="product-page.html">Carrots Group Scal</a>
+                          </div>
+                          <div class="product-price">
+                            <span class="product-current-price">£20</span>
+                            <span class="product-deal-price">£20</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                      <div class="product-item">
+                        <div class="product-img m-auto">
+                          <img src="../assets/images/product-images/2.png" class="img-fluid " alt="product-image">
+                        </div>
+                        <div class="product-badge">
+                          <span class="badge">New</span>
+                        </div>
+                        <div class="product-action">
+                          <ul>
+                            <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+
+                        <div class="product-content">
+                          <div class="product-rating">
+                            <ul>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-title">
+                            <a href="product-page.html">organic cherries 1KG</a>
+                          </div>
+                          <div class="product-price">
+                            <span class="product-current-price">£20</span>
+                            <span class="product-deal-price">£20</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                      <div class="product-item">
+                        <div class="product-img m-auto">
+                          <img src="../assets/images/product-images/3.png" class="img-fluid " alt="product-image">
+                        </div>
+                        <div class="product-badge">
+                          <span class="badge">New</span>
+                        </div>
+                        <div class="product-action">
+                          <ul>
+                            <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+
+                        <div class="product-content">
+                          <div class="product-rating">
+                            <ul>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-title">
+                            <a href="product-page.html">organic mangoes 1KG</a>
+                          </div>
+                          <div class="product-price">
+                            <span class="product-current-price">£20</span>
+                            <span class="product-deal-price">£20</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                      <div class="product-item">
+                        <div class="product-img m-auto">
+                          <img src="../assets/images/product-images/4.png" class="img-fluid " alt="product-image">
+                        </div>
+                        <div class="product-badge">
+                          <span class="badge">New</span>
+                        </div>
+                        <div class="product-action">
+                          <ul>
+                            <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+
+                        <div class="product-content">
+                          <div class="product-rating">
+                            <ul>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-title">
+                            <a href="product-page.html">organic kiwi 1KG</a>
+                          </div>
+                          <div class="product-price">
+                            <span class="product-current-price">£20</span>
+                            <span class="product-deal-price">£20</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 col-lg-4">
+                      <div class="product-item">
+                        <div class="product-img m-auto">
+                          <img src="../assets/images/product-images/5.webp" class="img-fluid " alt="product-image">
+                        </div>
+                        <div class="product-badge">
+                          <span class="badge">New</span>
+                        </div>
+                        <div class="product-action">
+                          <ul>
+                            <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+
+                        <div class="product-content">
+                          <div class="product-rating">
+                            <ul>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-title">
+                            <a href="product-page.html">Viridian Quercetin B5 Plus Complex 60 capsules</a>
+                          </div>
+                          <div class="product-price">
+                            <span class="product-current-price">£21.99</span>
+                            <span class="product-deal-price">£22.52</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                      <div class="product-item">
+                        <div class="product-img m-auto">
+                          <img src="../assets/images/product-images/6.webp" class="img-fluid " alt="product-image">
+                        </div>
+                        <div class="product-badge">
+                          <span class="badge">New</span>
+                        </div>
+                        <div class="product-action">
+                          <ul>
+                            <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+
+                        <div class="product-content">
+                          <div class="product-rating">
+                            <ul>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-title">
+                            <a href="product-page.html">Teapigs Liquorice & Mint 50 Bags</a>
+                          </div>
+                          <div class="product-price">
+                            <span class="product-current-price">£15.50</span>
+                            <span class="product-deal-price">£22.52</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                      <div class="product-item">
+                        <div class="product-img m-auto">
+                          <img src="../assets/images/product-images/7.webp" class="img-fluid " alt="product-image">
+                        </div>
+                        <div class="product-badge">
+                          <span class="badge">New</span>
+                        </div>
+                        <div class="product-action">
+                          <ul>
+                            <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+
+                        <div class="product-content">
+                          <div class="product-rating">
+                            <ul>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-title">
+                            <a href="product-page.html">Steens Monofloral Manuka Honey UMF10+ 340g</a>
+                          </div>
+                          <div class="product-price">
+                            <span class="product-current-price">£24.99</span>
+                            <span class="product-deal-price">£29.52</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-4">
+                      <div class="product-item">
+                        <div class="product-img m-auto">
+                          <img src="../assets/images/product-images/8.webp" class="img-fluid " alt="product-image">
+                        </div>
+                        <div class="product-badge">
+                          <span class="badge">New</span>
+                        </div>
+                        <div class="product-action">
+                          <ul>
+                            <li><a href="javascript:void(0)"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                            </li>
+                            <li><a href="javascript:void(0)"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+
+                        <div class="product-content">
+                          <div class="product-rating">
+                            <ul>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star" aria-hidden="true"></i></li>
+                              <li><i class="fa fa-star-half" aria-hidden="true"></i></li>
+                            </ul>
+                          </div>
+                          <div class="product-title">
+                            <a href="product-page.html">Alemany Forest Honey 500g</a>
+                          </div>
+                          <div class="product-price">
+                            <span class="product-current-price">£12.99</span>
+                            <span class="product-deal-price">£14.52</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row pagination-row">
+                    <div class="col-12 col-md-12 col-lg-12 d-flex justify-content-around">
+                      <nav aria-label="blog navigation">
+                        <ul class="pagination m-auto">
+                          <li class="page-item">
+                            <a class="page-link" href="javascript:void(0)" aria-label="Previous">
+                              <span aria-hidden="true">&laquo;</span>
+                            </a>
+                          </li>
+                          <li class="page-item"><a class="page-link active" href="javascript:void(0)">1</a></li>
+                          <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                          <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="javascript:void(0)" aria-label="Next">
+                              <span aria-hidden="true">&raquo;</span>
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
+          <!-- First col end -->
+          <!-- Second col start -->
+          <div class="col-12 col-md-3 col-lg-3 second-col">
+            <h5>Product Category</h5>
+            <div class="category-list">
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="food-and-groceries">
+                    <label class="form-check-label" for="food-and-groceries">
+                      Food and Groceries
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="home-and-kitchen">
+                    <label class="form-check-label" for="home-and-kitchen">
+                      Home and Kitchen
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="beauty-care">
+                    <label class="form-check-label" for="beauty-care">
+                      Beauty Care
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="sustainable-fashion">
+                    <label class="form-check-label" for="sustainable-fashion">
+                      Sustainable Fashion
+                    </label>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="health-and-wellness">
+                    <label class="form-check-label" for="health-and-wellness">
+                      Health and Wellness
+                    </label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Second col end -->
         </div>
+        <!-- First row end -->
       </div>
-        
+      <!-- Main container end -->
+      <!-- Footer start -->
       <footer>
         <div class="container-fluid">
           <div class="row go-to-top-row">
-              <a href="javascript:void(0)" id="goToTop">
-                <div class="col-12 col-md-12 col-lg-12">
-                  Back to top
-                </div>
-               </a>
+            <a href="javascript:void(0)" id="goToTop">
+              <div class="col-12 col-md-12 col-lg-12">
+                Back to top
+              </div>
+            </a>
           </div>
-
           <div class="row information-row">
-            <div class="col-12 col-md-3 col-lg-3 company-col">
+            <div class="col-12 col-md-6 col-lg-3 company-col">
               <img src="../assets/images/theme-logo/logo.png" class="img-fluid" alt="GreenHKMarket Logo">
-              <p>Green HK Market is a leading online platform dedicated to serving environmentally-conscious consumers in the UK. With a passion for promoting sustainable living, we strive to offer a diverse range of high-quality organic and sustainable products.</p>
+              <p>Green HK Market is a leading online platform dedicated to serving environmentally-conscious consumers
+                in the UK. With a passion for promoting sustainable living, we strive to offer a diverse range of
+                high-quality organic and sustainable products.</p>
             </div>
-            <div class="col-12 col-md-3 col-lg-3 links-col">
+            <div class="col-12 col-md-6 col-lg-3 links-col">
               <h5>Links</h5>
               <hr>
               <ul class="list-group">
@@ -524,25 +574,33 @@
                 <li class="list-group-item"><a href="contact-page.html">Contact us</a></li>
               </ul>
             </div>
-            <div class="col-12 col-md-3 col-lg-3 contact-col">
+            <div class="col-12 col-md-6 col-lg-3 contact-col">
               <h5>Contact information</h5>
               <hr>
               <table class="table">
                 <tr>
-                  <td><p><span><i class="fa-solid fa-map-location"></i></span> Address:</p></td>
-                  <td><Address>Conduit Lane, Oldbury <br> WV16 5BU Shropshire</Address></td>
+                  <td>
+                    <p><span><i class="fa-solid fa-map-location"></i></span> Address:</p>
+                  </td>
+                  <td>
+                    <Address>Conduit Lane, Oldbury <br> WV16 5BU Shropshire</Address>
+                  </td>
                 </tr>
                 <tr>
-                  <td><p><span><i class="fa-solid fa-envelope"></i></span> Email:</p></td>
+                  <td>
+                    <p><span><i class="fa-solid fa-envelope"></i></span> Email:</p>
+                  </td>
                   <td><a href="mailto:greenhkmart@gmail.com">greenhkmart@gmail.com</a></td>
                 </tr>
                 <tr>
-                  <td><p><span><i class="fa-solid fa-phone"></i> Phone:</p></td>
+                  <td>
+                    <p><span><i class="fa-solid fa-phone"></i> Phone:</p>
+                  </td>
                   <td><a href="tel:+447388810280">+44 7388 810280</a></td>
                 </tr>
               </table>
             </div>
-            <div class="col-12 col-md-3 col-lg-3 newsletter-col">
+            <div class="col-12 col-md-6 col-lg-3 newsletter-col">
               <h5>Newsletter</h5>
               <hr>
               <div class="row">
@@ -550,21 +608,27 @@
                 <div class="col-12 col-md-12">
                   <form action="javascript:void(0)" method="#" autocomplete="off">
                     <div class="input-group mb-3">
-                      <input type="text" class="form-control" placeholder="Email address" aria-label="Email addres" aria-describedby="news-letter-input">
-                      <a href="javascript:void(0)" class="btn btn-primary" id="news-letter-input"><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                      <input type="text" class="form-control" placeholder="Email address" aria-label="Email addres"
+                        aria-describedby="news-letter-input">
+                      <a href="javascript:void(0)" class="btn btn-primary" id="news-letter-input"><i
+                          class="fa fa-long-arrow-right" aria-hidden="true"></i>
                       </a>
-                    </div>      
+                    </div>
                   </form>
                 </div>
               </div>
-              
+
               <div class="row social-media-row">
                 <div class="col-12 col-md-12">
                   <ul class="list-group list-group-horizontal">
-                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-facebook"></i></a></li>
-                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-instagram"></i></a></li>
-                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-youtube"></i></a></li>
-                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-twitter"></i></a></li>
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-facebook"></i></a>
+                    </li>
+                    <li class="group-item"><a href="javascript:void(0)"><i
+                          class="fa-brands fa-square-instagram"></i></a></li>
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-youtube"></i></a>
+                    </li>
+                    <li class="group-item"><a href="javascript:void(0)"><i class="fa-brands fa-square-twitter"></i></a>
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -587,12 +651,19 @@
           </div>
         </div>
       </footer>
+      <!-- Footer end -->
     </div>
+    <!-- Page wrapper end -->
   </main>
+  <!-- Include jQuery library -->
   <script src="../assets/javascript/jquery-3.7.0.min.js"></script>
+  <!-- Include bootstrap bundle library -->
   <script src="../assets/javascript/bootstrap/bootstrap.bundle.js"></script>
+  <!-- Include jquery validation library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  <!-- Include sweet alert js library -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js"></script>
+  <!-- Include main js for website -->
   <script src="../assets/javascript/main.js"></script>
 </body>
 
