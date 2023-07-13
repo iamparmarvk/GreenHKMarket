@@ -1,8 +1,10 @@
+// For copyright year
 $(document).ready(function () {
     var current_year = new Date().getFullYear()
     document.getElementById('copyright_year').innerHTML = current_year
 })
 
+// For navbar toggler
 function navbarToggle(x) {
     x.classList.toggle("change");
 }
@@ -11,14 +13,18 @@ document.getElementById("goToTop").addEventListener("click", function (event) {
     scrollToTop();
 });
 
+// For scroll to top
 function scrollToTop() {
     window.scrollTo(0, 0);
 }
+
+// For loader
 window.addEventListener("load", function () {
     var loader = document.getElementById("loader-wrapper");
     loader.style.display = "none";
 });
 
+// For password visibility
 function togglePasswordVisibility() {
     var passwordInput = document.getElementById('passwordInput');
     var showPasswordIcon = document.getElementById('showPassIcon');
@@ -47,6 +53,7 @@ function toggleConfirmPasswordVisibility() {
     }
 }
 
+// For product image
 $('.gallery-product-img').click(function () {
     let currentImageUrl = $(this).attr('src');
     $('#main-image').css('opacity', 0);
@@ -56,8 +63,9 @@ $('.gallery-product-img').click(function () {
     }, 500);
 });
 
+// For thank you alert
 $('#placeOrderBtn').click(function () {
-Swal.fire(
+    Swal.fire(
         'Thank you!',
         'Your order has been placed',
         'success'
